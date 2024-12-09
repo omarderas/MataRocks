@@ -1,0 +1,547 @@
+   
+.hero-main{
+    position: relative;
+    height: 100dvh;
+    width: 100%;
+    z-index: 1;
+    background-image: url("../../images/mataRocks-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    &:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(80deg, rgb(3, 11, 13, 1) 0%, rgb(3, 11, 13, 0.3) 100%);
+        z-index: 2;
+    }
+    .hero-absolute{
+        position: relative;
+        max-width: 1500px;
+        margin: 0 auto;
+        height: 100%;
+        text-align: center;
+
+        .absolute-cont{
+            position: absolute;
+            top: 40%;
+            width: 100%;
+            //height: 100%;
+            left: 0;
+            text-align: center;
+            z-index: 9999999999;
+            @media(max-width: 767px){
+                top: 30%!important;
+            }
+            p{
+                font-family: "Baskervville", serif;
+                color: #FFD28D;
+                font-size: 25px;
+                font-style: italic;
+                font-weight: 400;
+               
+            }
+            h1{
+              
+                color: #fff;
+                font-family: "Baskervville", serif;
+                font-style: normal;
+                font-weight: 300;
+                padding-bottom: 40px;
+                font-size: 60px;
+                text-transform: uppercase;
+                span{
+                    color: #FFD28D;
+                    font-family: "Baskervville", serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    padding-bottom: 40px;
+                    font-size: 60px;
+                    text-transform: uppercase;
+                    display: unset;
+                }
+                @media(max-width: 767px){
+                    font-size: 40px!important;
+                }
+            }
+            span{
+                color: #FFF;
+                font-size: 18px;
+                font-family: "Prompt", sans-serif;
+                font-weight: 300;
+                width: 900px;
+                display: block;
+                margin: 0 auto;
+            }
+            .row{
+                @media(max-width: 767px) and (min-width: 400px){
+                    flex-wrap: wrap;
+                    
+                }
+                .col-sm-6.one{
+                    @media(min-width: 400px){
+                        text-align: right;
+                        
+                    }
+                    
+                }
+                .col-sm-6.two{
+                    
+                    @media(min-width: 400px){
+                        text-align: left;
+                           
+                    }
+                    @media(max-width: 400px){
+                        margin-top: 30px;
+                    }
+                }
+                .col-sm-6{
+                    @media(max-width: 767px) and (min-width: 400px){
+                        width: 50%;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        border: 1px solid #fff;
+                        padding: 10px 10px 10px 10px;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        font-size: 15px;
+                        .fa{
+                            padding-left: 10px;
+                        }
+                        &:hover{
+                            color: #f93!important;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.welcome-main{
+    background: #040D10;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .main-cont{
+        text-align: center;
+        max-width: 1320px;
+        padding: 10px;
+        margin: 0 auto;
+        span{
+            
+            color: rgb(255, 210, 141);
+            text-decoration: none;
+            font-family: "Prompt", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+           
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            
+        }
+        h1{
+            color: #fff;
+            font-family: "Baskervville", sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            padding-bottom: 40px;
+            font-size: 60px;
+             text-transform: unset;
+             span{
+                font-size: 60px;
+                font-family: "Baskervville", sans-serif;
+             }
+        }
+        p{
+            color: #FFF;
+            font-size: 16px;
+            font-family: "Prompt", sans-serif;
+            font-weight: 300;
+           // width: 900px;
+            display: block;
+            margin: 0 auto;
+            opacity: 0.8;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-family: "Prompt", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            display: block;
+            margin-top: 20px!important;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: fit-content;
+            margin: 0 auto;
+            border-top: 1px solid rgb(255, 210, 141);
+            border-bottom: 1px solid rgb(255, 210, 141);
+            padding: 10px;
+        }
+    }
+}
+.rooms-main{
+    background-color: #051114;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    .head{
+        text-align: center;
+        p{
+            font-family: "Baskervville", serif;
+            color: #FFD28D;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 400;
+        }
+        h1{
+                color: #FFD28D;
+                font-family: "Baskervville", serif;
+                font-style: normal;
+                font-weight: 300;
+                padding-bottom: 40px;
+                font-size: 60px;
+                
+        }
+    }
+    .row{
+        margin: 0;
+        max-width: 1320px;
+        margin: 0 auto;
+        .col-sm-4{
+            a{
+                text-decoration: unset;
+                position: relative;
+                .room-cont{
+                    h2{
+                        color: #FFF;
+                        font-family: "Baskervville", serif;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 26px;
+                        margin-top: 30px;
+                        margin-bottom: 25px;
+                    }
+                    ul.room-specs{
+                        list-style: none;
+                        padding: 0;
+                        display: inline-flex;
+                        li{
+                            color: #fff;
+                            text-decoration: none;
+                            font-family: "Prompt", sans-serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            text-transform: uppercase;
+                            padding-right: 15px;
+                            border-right: 1px solid rgb(255, 210, 141, 0.3);
+                            &:nth-child(3){
+                                border: none;
+                                padding-left: 15px;
+                            }
+                            &:nth-child(2){
+                                border: none;
+                                padding-left: 15px;
+                                border-right: 1px solid rgb(255, 210, 141, 0.3);
+                            }
+                        }
+                    }
+                    p#desc{
+                        color: #FFF;
+                        font-size: 16px;
+                        font-family: "Prompt", sans-serif;
+                        font-weight: 300;
+                        display: block;
+                        margin: 0 auto;
+                        opacity: 0.8;   
+                    }
+                    span{
+                        color: rgb(255, 210, 141);
+                        font-size: 16px;
+                        font-family: "Prompt", sans-serif;
+                        font-weight: 300;
+                        display: block;
+                        margin-top: 20px; 
+                        .fa{
+                            padding-left: 10px;
+                            margin-top: 5px;
+                            &::before{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        a.all-button{
+            color: #fff;
+            text-decoration: none;
+            font-family: "Prompt", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            display: block;
+            margin-top: 80px!important;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: fit-content;
+            margin: 0 auto;
+            border-top: 1px solid rgb(255, 210, 141);
+            border-bottom: 1px solid rgb(255, 210, 141);
+            padding: 10px;
+        }
+    }
+}
+
+.about-main{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url("../../images/about-mata-bg.png");
+    background-size: cover;
+    background-position: center;
+    .cont{
+        max-width: 1320px;
+        margin: 0 auto;
+        .row{
+            margin: 0;
+            .col-sm-6{
+                h2{
+                    font-family: "Baskervville", serif;
+                    color: #FFD28D;
+                    font-size: 25px;
+                    font-style: italic;
+                    font-weight: 400;
+                }
+                h1{
+                    color: #fff;
+                    font-family: "Baskervville", sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                   // padding-bottom: 40px;
+                    font-size: 60px;
+                    text-transform: unset;
+                    span{
+                        color: #FFD28D;
+                    }
+                }
+                p{
+                        color: #FFF;
+                        font-size: 16px;
+                        font-family: "Prompt", sans-serif;
+                        font-weight: 300;
+                        display: block;
+                        margin: 0 auto;
+                        opacity: 0.8;    
+                }
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    display: block;
+                    margin-top: 60px!important;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    width: fit-content;
+                    border-top: 1px solid rgb(255, 210, 141);
+                    border-bottom: 1px solid rgb(255, 210, 141);
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+.facilities-main{
+    background-color: #051114;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .cont{
+        .title{
+            text-align: center;
+            padding-bottom: 40px;
+            h2{
+                font-family: "Baskervville", serif;
+                color: #FFD28D;
+                font-size: 25px;
+                font-style: italic;
+                font-weight: 400;
+            }
+            h1{
+                    color: #FFD28D;
+                    font-family: "Baskervville", sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                   // padding-bottom: 40px;
+                    font-size: 60px;
+                    text-transform: unset;  
+            }
+        }
+        .row{
+            max-width: 1320px;
+            margin: 0 auto;
+            .col-sm-4{
+                border-right: 1px solid rgb(255, 210, 141, 0.3);
+                padding: 30px;
+                a{
+                    .cont-icon{
+                        .fa{
+                            color: #FFD28D;
+                            font-size: 20px;
+                        }
+                    }
+                    &:hover{
+                        text-decoration: unset;
+                    }
+                    .cont-desc{
+                        h2{
+                            color: #FFF;
+                            font-family: "Baskervville", serif;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 26px;
+                            margin-top: 10px;
+                            margin-bottom: 25px;
+                            span{
+                                color: #FFD28D;
+                            }
+                        }
+                        p{
+                            color: #FFF;
+                            font-size: 16px;
+                            font-family: "Prompt", sans-serif;
+                            font-weight: 300;
+                            display: block;
+                            margin: 0 auto;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+                &:last-child{
+                    border: none;
+                }
+            }
+        }
+        hr{
+            border-top: 1px solid rgb(255, 210, 141, 0.3);
+            margin: 0;
+        }
+    }
+}
+.services-main{
+    background-color: #040D10;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    .service-header{
+        max-width: 1320px;
+        margin: 0 auto;
+        h2{
+                font-family: "Baskervville", serif;
+                color: #FFD28D;
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 400;
+        }
+        h1{
+                    color: #FFD28D;
+                    font-family: "Baskervville", sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                   // padding-bottom: 40px;
+                    font-size: 50px;
+                    text-transform: unset;
+        }
+        p{
+                            color: #FFF;
+                            font-size: 16px;
+                            font-family: "Prompt", sans-serif;
+                            font-weight: 300;
+                            display: block;
+                            margin: 0 auto;
+                            opacity: 0.8;
+        }
+    }
+    .row{
+        margin: 0px;
+        padding-top: 80px;
+        .col-sm-4{
+           position: relative;
+           a{
+              display: block;
+              width: 100%;
+              height: 100%;
+              position: relative;
+              .service-cont{
+                position: absolute;
+                width: 100%;
+                z-index: 9;
+                bottom: 0;
+                padding: 30px;
+                h1{
+                    color: #FFD28D;
+                    font-family: "Baskervville", serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 30px;
+                    margin-top: 10px;
+                    
+                }
+                p{
+                    color: #FFF;
+                    font-size: 16px;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 300;
+                    display: block;
+                    margin: 0 auto;
+                    opacity: 0.8;
+                }
+              }
+              .hero-button{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                z-index: 9;
+                text-align: right;
+                background: linear-gradient(80deg, rgb(3, 11, 13, 1) 0%, rgb(3, 11, 13, 0.3) 100%);
+                transition: .2s all ease-in-out;
+                span{
+                    background-color: #040D10;
+                    padding: 15px;
+                    font-family: "Baskervville", serif;
+                    color: #FFD28D;
+                    font-size: 18px;
+                    font-style: italic;
+                    font-weight: 400;
+                }
+              }
+           }
+        }
+    }
+}
+.reviews-main{
+    background-color: #051114;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    .reviews-cont{
+        max-width: 1320px;
+        margin: 0 auto;
+
+        .reviews-header{
+            h1{
+                    color: #FFD28D;
+                    font-family: "Baskervville", serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 50px;
+                    margin-top: 10px;
+                    padding-bottom: 40px;
+            }
+        }
+    }
+}
