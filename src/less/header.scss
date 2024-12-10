@@ -31,11 +31,11 @@ header {
     }
  }
     .navbar-light .navbar-nav .active>.nav-link{
-        color: #5bc5ec;
+        color: #FFD28D;
     
     }
     .navbar-nav .nav-link:hover {
-        color: #5bc5ec!important;
+        color: #FFD28D!important;
     }
 
     li.nav-item.dropdown:hover .dropdown-menu {
@@ -81,9 +81,9 @@ header {
     background-color: unset!important;
     }
     @media(max-width: 991px){
-        background-color: #00111E;
+        background-color: rgb(5, 17, 20);
         .navbar-light .navbar-toggler {
-            color: #e5b81c;
+            color: #FFD28D;
             border-color: #e9dbd8;
         }
     }
@@ -116,7 +116,7 @@ header {
     }
     @media(max-width: 1220px) and (min-width: 992px){
     .navbar-light .navbar-nav .nav-link {
-        color: #e5b81c;
+        color: #FFD28D;
         font-weight: bold;
         font-size: 14px!important;
         padding-right: 2px;
@@ -151,13 +151,13 @@ header {
        //display: block;
        border-radius: 0px;
        background-color: unset!important;
-      color: #e5b81c;
+      color: #FFD28D;
       
-       background-color: #00111e!important;
+       background-color: rgb(5, 17, 20)!important;
        a.dropdown-item{
         text-decoration: none;
         font-family: "Prompt", sans-serif;
-        font-weight: 600;
+        font-weight: 400;
         font-style: normal;
         color: #e6dcd2;
         text-transform: uppercase;
@@ -170,25 +170,40 @@ header {
        
        }
        .dropdown-item:hover , .dropdown-item:focus{
-        color: rgb(91, 197, 236);
+        color: #FFD28D;
 
        }
     }
 
     @media(max-width: 1300px){
       .navbar-light .navbar-nav .nav-link {
-            color: #e5b81c;
-            font-weight: bold;
+            color: #FFD28D;
+            //font-weight: bold;
             font-size: 15px;
         }
      .contact-block a {
             text-decoration: none;
-            color: #e5b81c;
+            color: #FFD28D;
             font-weight: bold;
             font-size: 17px;
     }
 }
-
+@media(min-width: 576px){
+    .top-bar.main{
+         display: none;
+    }
+}
+@media(max-width: 575px){
+    .top-bar.desktop{
+        display: none;
+    }
+    .col-sm-4{
+        width: 50%;
+    }
+   .top-bar .row .col-sm-4 a#phone span p{
+    display: none;
+   }
+}
 .top-bar{
     .row{
         border-bottom: 1px solid rgb(230, 220, 210, 0.3);
@@ -208,10 +223,18 @@ header {
                 font-size: 16px;
                 letter-spacing: 1px;
                 border-right: 1px solid rgb(230, 220, 210, 0.3);
+                
                 display: block;
                 height: 100%;
                 width: fit-content;
                 padding: 40px 20px 20px 20px;
+                &{
+                    @media(max-width: 575px){
+                        padding: 20px 20px 20px 20px;
+                        border-top: 1px solid rgb(230, 220, 210, 0.3);
+                
+                    }
+                }
 
             }
             a#phone{
@@ -234,12 +257,20 @@ header {
                     padding: 40px 20px 20px 20px;
                     height: 100%;
                     display: inline-table;
+                    &{
+                        @media(max-width: 575px){
+                            padding: 40px 20px 20px 20px;
+                            border-top: 1px solid rgb(230, 220, 210, 0.3);
+                
+                        }
+                    }
                 }
 
             }
             a.brand{
                 width: 100%;
                 display: block;
+                text-align: center;
                 .gatsby-image-wrapper.gatsby-image-wrapper-constrained{
                     margin: 0 auto;
                     width: 100%;

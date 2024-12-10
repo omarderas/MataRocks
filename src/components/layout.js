@@ -27,7 +27,11 @@ const Layout = ({ children }) => {
     <>
       <div className="App">
         <Header />
+        <div className="content">
+        <div>
         <main>{children}</main>
+        </div>
+        </div>
         <Footer />
                 
         </div>

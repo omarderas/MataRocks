@@ -3,21 +3,23 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import "./../less/footer.scss";
-
+import Logo from "../images/logo";
 import  FaFacebookF  from "../images/faFacebookF";
 import  FaInstagram  from "../images/FaInstagram";
 
 const MainLogo = "../images/bhe-Logo.png";
      
 
-function Footer() {
+const Footer = () => {
 	return (
     <div className="footer">
         <div className="footer-wrapper">
         <div className="row">
             <div className="col-sm-4">
                 <div className="footer-content">
-                <a className="brand" title="Caves Branch Tour Guide Association" href="/">  <StaticImage alt="" src="../images/Mata-Rocks-Resort-barefoot.png" quality={60} formats={["auto", "webp", "avif"]} /></a>
+                <a className="brand" title="" href="/">  
+                <Logo />
+                </a>
                
                     <ul className="social">
                                 <li>
@@ -54,7 +56,7 @@ function Footer() {
             </div>
             <div className="col-sm-4">
                <div className="footer-content">
-             {/*}  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15186.426472875184!2d-87.9753892!3d17.9038387!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5c9b06febb2791%3A0x684ad7d1597b8b81!2sMata%20Rocks%20Resort!5e0!3m2!1sen!2sbz!4v1733772879537!5m2!1sen!2sbz" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>*/}
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15186.426472875184!2d-87.9753892!3d17.9038387!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5c9b06febb2791%3A0x684ad7d1597b8b81!2sMata%20Rocks%20Resort!5e0!3m2!1sen!2sbz!4v1733772879537!5m2!1sen!2sbz" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                        
                 </div>
             </div>

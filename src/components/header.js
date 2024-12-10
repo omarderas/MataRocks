@@ -1,28 +1,43 @@
 import "./../less/header.scss";
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-
+import Logo from "../images/logo";
 
 
 
 const Header = () => {
   return (
   <header>
-    <div className="top-bar">
+    <div className="top-bar desktop">
        <div className="row">
           <div className="col-sm-4">
              <a href="" id="book"><span>Book Now</span></a>
           </div>
           <div className="col-sm-4">
              <a className="brand" title="" href="/">  
-             
-             <StaticImage alt="" src={`../images/Mata-Rocks-Resort-barefoot.png`} quality={60} formats={["auto", "webp", "avif"]} />
-             </a>
+             <Logo />
+           </a>
           </div>
           <div className="col-sm-4">
           <a title="" href="tel:5012262336" id="phone">
           <span> <i className="fa fa-phone" aria-hidden="true"></i>
             Tel: +501 226 2336</span>
+            </a>
+          </div>
+       </div>
+    </div>
+    <div className="top-bar mobile">
+       <div className="row">
+       <div className="col-sm-4">
+             <a className="brand" title="" href="/">  
+             <Logo />
+           </a>
+          </div>
+        
+          <div className="col-sm-4">
+          <a title="" href="tel:5012262336" id="phone">
+          <span> <i className="fa fa-phone" aria-hidden="true"></i>
+           <p>Tel: +501 226 2336</p> </span>
             </a>
           </div>
        </div>
