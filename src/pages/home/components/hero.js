@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div class="hero-main">
+    <div className="hero-main">
         <div className='hero-absolute'>
           <div className='absolute-cont'>
               <p>Be Our Guests</p>

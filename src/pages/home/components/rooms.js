@@ -11,10 +11,10 @@ function Rooms() {
       <div className='row'>
         <div className='col-sm-4'>
             <a href="">
-              <StaticImage src="../../../images/room-1.png" quality={60} formats={["auto", "webp", "avif"]} />
+              <StaticImage alt="" src="../../../images/room-1.png" quality={60} formats={["auto", "webp", "avif"]} />
               <div className='room-cont'>
                 <h2>The Ocean Front Suite</h2>
-                <ul class="room-specs">
+                <ul className="room-specs">
                     <li>120M2</li>
                     <li>2 Beds</li>
                     <li>Ocean View</li>
@@ -25,17 +25,17 @@ function Rooms() {
                 </p>
                 <span>
                     Room Details
-                    <i class="fa fa-long-arrow-right"></i>
+                    <i className="fa fa-long-arrow-right"></i>
                 </span>
               </div>
             </a>
         </div>
         <div className='col-sm-4'>
             <a href="">
-              <StaticImage src="../../../images/room-2.png" quality={60} formats={["auto", "webp", "avif"]} />
+              <StaticImage alt="" src="../../../images/room-2.png" quality={60} formats={["auto", "webp", "avif"]} />
               <div className='room-cont'>
                 <h2>The Ocean View Pool Deck</h2>
-                <ul class="room-specs">
+                <ul className="room-specs">
                     <li>120M2</li>
                     <li>2 Beds</li>
                     <li>Ocean View</li>
@@ -46,17 +46,17 @@ function Rooms() {
                 </p>
                 <span>
                     Room Details
-                    <i class="fa fa-long-arrow-right"></i>
+                    <i className="fa fa-long-arrow-right"></i>
                 </span>
               </div>
             </a>
         </div>
         <div className='col-sm-4'>
             <a href="">
-              <StaticImage src="../../../images/room-3.png" quality={60} formats={["auto", "webp", "avif"]} />
+              <StaticImage alt="" src="../../../images/room-3.png" quality={60} formats={["auto", "webp", "avif"]} />
               <div className='room-cont'>
                 <h2>The Ocean View Balcony</h2>
-                <ul class="room-specs">
+                <ul className="room-specs">
                     <li>120M2</li>
                     <li>2 Beds</li>
                     <li>Ocean View</li>
@@ -67,12 +67,12 @@ function Rooms() {
                 </p>
                 <span>
                     Room Details
-                    <i class="fa fa-long-arrow-right"></i>
+                    <i className="fa fa-long-arrow-right"></i>
                 </span>
               </div>
             </a>
         </div>
-        <a class="all-button" href="">
+        <a className="all-button" href="">
             View All Rooms
         </a>
       </div>

@@ -18,7 +18,7 @@ function Services() {
         <div className='row'>
             <div className='col-sm-4'>
                 <a href="">
-                 <StaticImage src="../../../images/golf-cart.png" quality={60} formats={["auto", "webp", "avif"]} />
+                 <StaticImage alt="" src="../../../images/golf-cart.png" quality={60} formats={["auto", "webp", "avif"]} />
                   <div className='hero-button'>
                     <span>Read More</span>
                   </div>
@@ -31,7 +31,7 @@ function Services() {
             </div>
             <div className='col-sm-4'>
                 <a href="">
-                 <StaticImage src="../../../images/bikes-1.png" quality={60} formats={["auto", "webp", "avif"]} />
+                 <StaticImage alt="" src="../../../images/bikes-1.png" quality={60} formats={["auto", "webp", "avif"]} />
                   <div className='hero-button'>
                     <span>Read More</span>
                   </div>
@@ -43,7 +43,7 @@ function Services() {
             </div>
             <div className='col-sm-4'>
                 <a href="">
-                 <StaticImage src="../../../images/kayaks.png" quality={60} formats={["auto", "webp", "avif"]} />
+                 <StaticImage alt="" src="../../../images/kayaks.png" quality={60} formats={["auto", "webp", "avif"]} />
                   <div className='hero-button'>
                     <span>Read More</span>
                   </div>

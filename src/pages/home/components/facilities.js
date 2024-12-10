@@ -12,7 +12,7 @@ function Facilities() {
                 <div className='col-sm-4'>
                     <a href="">
                         <div className='cont-icon'>
-                        <i class="fa fa-wifi"></i>
+                        <i className="fa fa-wifi"></i>
                         </div>
                         <div className='cont-desc'>
                              <h2><span>01 / </span>Wi-Fi Connection</h2>
@@ -23,7 +23,7 @@ function Facilities() {
                 <div className='col-sm-4'>
                     <a href="">
                         <div className='cont-icon'>
-                        <i class="fa fa-glass"></i>
+                        <i className="fa fa-glass"></i>
                         </div>
                         <div className='cont-desc'>
                              <h2><span>02 / </span>Welcome Drink</h2>
@@ -34,7 +34,7 @@ function Facilities() {
                 <div className='col-sm-4'>
                     <a href="">
                         <div className='cont-icon'>
-                        <i class="fa fa-futbol-o"></i>
+                        <i className="fa fa-futbol-o"></i>
                         </div>
                         <div className='cont-desc'>
                              <h2><span>03 / </span>Swimming Pool</h2>
@@ -48,7 +48,7 @@ function Facilities() {
                 <div className='col-sm-4'>
                     <a href="">
                         <div className='cont-icon'>
-                        <i class="fa fa-sun-o"></i>
+                        <i className="fa fa-sun-o"></i>
                         </div>
                         <div className='cont-desc'>
                              <h2><span>04 / </span>Beachfront</h2>
@@ -59,7 +59,7 @@ function Facilities() {
                 <div className='col-sm-4'>
                     <a href="">
                         <div className='cont-icon'>
-                        <i class="fa fa-bookmark"></i> 
+                        <i className="fa fa-bookmark"></i> 
                         </div>
                         <div className='cont-desc'>
                              <h2><span>05 / </span>Laundry</h2>
@@ -70,7 +70,7 @@ function Facilities() {
                 <div className='col-sm-4'>
                     <a href="">
                         <div className='cont-icon'>
-                        <i class="fa fa-umbrella"></i>  
+                        <i className="fa fa-umbrella"></i>  
                         </div>
                         <div className='cont-desc'>
                              <h2><span>06 / </span>Beach Loungers</h2>
