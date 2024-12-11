@@ -12,6 +12,10 @@ function Rooms() {
         <div className='col-sm-4'>
             <a href="">
               <StaticImage alt="" src="../../../images/room-1.png" quality={60} formats={["auto", "webp", "avif"]} />
+              <div className='room-price'>
+                From $175USD
+              </div>
+              
               <div className='room-cont'>
                 <h2>The Ocean Front Suite</h2>
                 <ul className="room-specs">
@@ -33,6 +37,9 @@ function Rooms() {
         <div className='col-sm-4'>
             <a href="">
               <StaticImage alt="" src="../../../images/room-2.png" quality={60} formats={["auto", "webp", "avif"]} />
+              <div className='room-price'>
+                From $155USD
+              </div>
               <div className='room-cont'>
                 <h2>The Ocean View Pool Deck</h2>
                 <ul className="room-specs">
@@ -54,6 +61,9 @@ function Rooms() {
         <div className='col-sm-4'>
             <a href="">
               <StaticImage alt="" src="../../../images/room-3.png" quality={60} formats={["auto", "webp", "avif"]} />
+              <div className='room-price'>
+                From $185USD
+              </div>
               <div className='room-cont'>
                 <h2>The Ocean View Balcony</h2>
                 <ul className="room-specs">

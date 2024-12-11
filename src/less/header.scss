@@ -116,8 +116,8 @@ header {
     }
     @media(max-width: 1220px) and (min-width: 992px){
     .navbar-light .navbar-nav .nav-link {
-        color: #FFD28D;
-        font-weight: bold;
+        color: #FFF;
+        //font-weight: bold;
         font-size: 14px!important;
         padding-right: 2px;
         padding-left: 11px;
@@ -175,9 +175,9 @@ header {
        }
     }
 
-    @media(max-width: 1300px){
+    @media(max-width: 991px){
       .navbar-light .navbar-nav .nav-link {
-            color: #FFD28D;
+           color: #FFD28D;
             //font-weight: bold;
             font-size: 15px;
         }
@@ -205,11 +205,19 @@ header {
    }
 }
 .top-bar{
+
     .row{
         border-bottom: 1px solid rgb(230, 220, 210, 0.3);
         margin: 0;
         .col-sm-4:nth-child(3){
             text-align: right;
+        }
+        .col-sm-4:nth-child(2){
+            &{
+                @media(min-width: 768px) and (max-width: 991px){
+                  // margin-right: 20px;
+                }
+            }
         }
         .col-sm-4{
             padding: 0;
@@ -227,10 +235,10 @@ header {
                 display: block;
                 height: 100%;
                 width: fit-content;
-                padding: 40px 20px 20px 20px;
+                padding: 65px 20px 20px 20px;
                 &{
-                    @media(max-width: 575px){
-                        padding: 20px 20px 20px 20px;
+                    @media(max-width: 767px){
+                        padding: 40px 20px 20px 20px;
                         border-top: 1px solid rgb(230, 220, 210, 0.3);
                 
                     }
@@ -254,12 +262,12 @@ header {
                 text-align: right;
                 span{
                     border-left: 1px solid rgb(230, 220, 210, 0.3);
-                    padding: 40px 20px 20px 20px;
+                    padding: 65px 20px 20px 20px;
                     height: 100%;
                     display: inline-table;
                     &{
-                        @media(max-width: 575px){
-                            padding: 40px 20px 20px 20px;
+                        @media(max-width: 767px){
+                            padding: 40px 20px 20px 10px;
                             border-top: 1px solid rgb(230, 220, 210, 0.3);
                 
                         }
@@ -271,12 +279,31 @@ header {
                 width: 100%;
                 display: block;
                 text-align: center;
-                .gatsby-image-wrapper.gatsby-image-wrapper-constrained{
-                    margin: 0 auto;
-                    width: 100%;
-                    img{
-                        width: 200px;
-                        margin: 0 auto;
+                
+                &{
+                    @media(max-width: 575px){
+                        padding-left: 10px;
+            
+                    }
+                }
+                svg{
+                    &{
+                        @media(max-width: 767px){
+                            width: 200px;
+                            height: 100px;
+                           
+                
+                        }
+                    }
+                    &{
+                        @media(min-width: 576px) and (max-width: 767px){
+                            padding-right: 40px;
+                        }
+                    }
+                    &{
+                        @media(min-width: 768px) and (max-width: 991px){
+                            padding-right: 120px;
+                        }
                     }
                 }
 

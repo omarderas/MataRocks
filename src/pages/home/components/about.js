@@ -8,7 +8,9 @@ function About() {
                  <div className='col-sm-6'>
                         <h2>Let's make a thoast!</h2>
                         <h1>Beachfront Bar <span>On The Rocks</span></h1>
-                        <p>Join us for cocktails, wine, beer and more at our beachfront bar. Ask our bartenders to make our renowned signature On The Rocks cocktails.</p><br />
+                        <p>Sip, Savor, and Relax by the Waves!
+Enjoy expertly crafted cocktails, fine wine, and ice-cold beer at our stunning beachfront bar. Don’t miss
+our famous signature "On The Rocks" creations, mixed to perfection by our talented bartenders.</p>
                         <p>We also have an In House Restaruant with Authentic Italian food with a Belizean twist. Our menu will draw inspiration from coastal mediterranean cuisine and local dishes.</p>
                         <a href="">Restaurant & Bar</a>
                  </div>

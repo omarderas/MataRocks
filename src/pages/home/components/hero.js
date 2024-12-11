@@ -6,8 +6,10 @@ function Hero() {
         <div className='hero-absolute'>
           <div className='absolute-cont'>
               <p>Be Our Guests</p>
-              <h1>A Captivating Retreat At<br /> Our <span>Resort Haven</span></h1>
-              <span>Come stay with us! Our resort is situated on Ambergris Caye one of the many islands in Belize. Guests can come by air or sea. Click below to discover more about Mata Rocks Resort and offerings on the island.</span>
+              <h1>Escape to Paradise At <br /><span>Mata Rocks Resort</span></h1>
+              <span>Discover the ultimate oceanfront getaway on Ambergris Caye, Belize's tropical gem. Arrive by air or sea
+and immerse yourself in relaxation and adventure. Click below to explore our resort and all the island
+has to offer!</span>
           </div>
         </div>
       

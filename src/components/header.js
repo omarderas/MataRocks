@@ -20,8 +20,8 @@ const Header = () => {
           </div>
           <div className="col-sm-4">
           <a title="" href="tel:5012262336" id="phone">
-          <span> <i className="fa fa-phone" aria-hidden="true"></i>
-            Tel: +501 226 2336</span>
+          <span> 
+             TEL: +501 226 2336</span>
             </a>
           </div>
        </div>

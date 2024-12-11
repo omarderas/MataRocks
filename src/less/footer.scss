@@ -1,3 +1,10 @@
+
+.gatsby-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
 .footer{
     background-image: linear-gradient(rgba(4,13,16,1),rgba(4,13,16,1));
     position: relative;
@@ -21,10 +28,27 @@
             margin-left: 0px;
             padding-top: 40px;
             .col-sm-4{
-                @media(max-width: 575px){
+                @media(max-width: 767px){
                     text-align: center;
                 }
+                &{
+                    @media(min-width: 576px) and (max-width: 767px){
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        margin-top: 30px;
+                    }
+               }
                 .footer-content{
+                    a.brand{
+                        svg{
+                            &{
+                                @media(min-width: 768px) and (max-width: 991px){
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        
+                    }
                     p:nth-child(2){
                        
                            // font-family: Montserrat, sans-serif;

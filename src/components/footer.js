@@ -19,6 +19,9 @@ const Footer = () => {
                 <div className="footer-content">
                 <a className="brand" title="" href="/">  
                 <Logo />
+                <p>Have questions about bookings, our restaurant, or want to learn more about Mata Rocks and San
+Pedro? Simply email us below with your name, email, and message, and we’ll be sure to respond within
+24 hours.</p>
                 </a>
                
                     <ul className="social">
