@@ -8,10 +8,12 @@ function Services() {
             <div className='row'>
                 <div className='col-sm-6'>
                     <h2>Get It All with Us</h2>
-                    <h1>Your Ride, Your Adventure!</h1>
+                    <h1>Explore the Island Your Way!</h1>
                 </div>
                 <div className='col-sm-6'>
-                   <p>From golf carts rentals for effortless island cruising to complimentary bikes, kayaks, and paddleboards for your adventures, we’ve got you covered. Whatever your style, you’ll find the perfect way to explore and enjoy your stay!</p>
+                   <p>Mata Rocks offers complimentary bikes, kayaks, and paddleboards so you can explore the island at
+your own pace. For effortless cruising, golf cart rentals are available. No matter your style, you'll find
+the perfect way to discover Ambergris Caye and make the most of your stay.</p>
                 </div>
             </div>
         </div>

@@ -18,7 +18,11 @@ header {
     nav{
     width: 1500px;
     margin: 0 auto;
-   
+     &{
+        @media(max-width: 991px){
+            justify-content: center!important;
+        }
+     }
     }
     @media(max-width: 768px){
     .navbar-light .navbar-brand {
@@ -198,7 +202,7 @@ header {
         display: none;
     }
     .col-sm-4{
-        width: 50%;
+        width: 100%;
     }
    .top-bar .row .col-sm-4 a#phone span p{
     display: none;
@@ -289,7 +293,7 @@ header {
                 svg{
                     &{
                         @media(max-width: 767px){
-                            width: 200px;
+                           // width: 200px;
                             height: 100px;
                            
                 
@@ -298,6 +302,7 @@ header {
                     &{
                         @media(min-width: 576px) and (max-width: 767px){
                             padding-right: 40px;
+                            width: 200px;
                         }
                     }
                     &{

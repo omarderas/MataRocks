@@ -34,12 +34,12 @@ const Header = () => {
            </a>
           </div>
         
-          <div className="col-sm-4">
+        {/*}  <div className="col-sm-4">
           <a title="" href="tel:5012262336" id="phone">
           <span> <i className="fa fa-phone" aria-hidden="true"></i>
            <p>Tel: +501 226 2336</p> </span>
             </a>
-          </div>
+          </div>*/}
        </div>
     </div>
   <nav className="navbar navbar-expand-lg navbar-light bg-light"> 
