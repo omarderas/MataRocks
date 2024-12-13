@@ -1,87 +1,266 @@
 import React from 'react'
+import { Container, Button, Col } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
+import { StaticQuery, graphql, Link } from "gatsby"
 
 function Rooms() {
   return (
     <div className='rooms-main'>
-      <div className='head'>
+     {/*} <div className='head'>
         <p>Accomodations</p>
         <h1>Rooms / Suites</h1>
-      </div>
-      <div className='row'>
-        <div className='col-sm-4'>
-            <a href="">
-              <StaticImage alt="" src="../../../images/room-1.png" quality={60} formats={["auto", "webp", "avif"]} />
-              <div className='room-price'>
-                From $175USD
-              </div>
+      </div>*/}
+      <div className="gallery">
+          
+          <div className="image-gallery">
+          
+            <div className="photos">
+       
+            <Link  to="/">
+              <div >
+                 <div className="main-content">
+                      <div className="data-wrapper">
+                      
+                          <div className="estate-type">
+                              <div className="image-field">
+                               <StaticImage alt="" src="../../../images/room1.jpg" quality={60} formats={["auto", "webp", "avif"]} />
               
-              <div className='room-cont'>
-                <h2>The Ocean Front Suite</h2>
-                <ul className="room-specs">
-                    <li>120M2</li>
-                    <li>2 Beds</li>
-                    <li>Ocean View</li>
-                </ul>
-                <p id="desc">
-                Beautiful oceanfront junior suites with a balcony.
-                Each sunlit suite is serenely outfitted with a relaxing king bed, private bath, private balcony and ocean view. The Suites also come equipped with a fully furnished kitchenette and a table and chairs to give you a little dining flexibility.
-                </p>
-                <span>
-                    Room Details
-                    <i className="fa fa-long-arrow-right"></i>
-                </span>
+                                
+                                <div className="overlay">
+                               
+                                    
+                                  <div className="content">
+                                      <Container> 
+                                      <div className="block">
+                                             
+                                      <div className="desc"> 
+                                        <div className='desc-main'>
+                                          <h2>Ocean Front Suite</h2>
+                                          <p>$140USD/N</p>
+                                        </div>
+                                        <div>
+                                            <p>Room with two queen beds and direct pool deck access.<br />
+                                               - 4 Guests <br />
+                                               - Daily Cleaning< br/>
+                                               - Room Service<br />
+                                               - Housekeeping<br />
+                                               - Wi-Fi<br />
+
+
+                                            </p>
+                                        </div>
+                                        <a className='book-button'>
+                                          Book
+                                        </a>
+                                       
+                                        </div>       
+                                         
+                                     </div>
+                                      </Container>
+                                  </div>
+                                  
+                                  
+                                  </div>
+
+
+                              </div>
+          
+                          </div> 
+                   
+
+                      </div>
+                      
+                  </div> 
+                
               </div>
-            </a>
-        </div>
-        <div className='col-sm-4'>
-            <a href="">
-              <StaticImage alt="" src="../../../images/room-2.png" quality={60} formats={["auto", "webp", "avif"]} />
-              <div className='room-price'>
-                From $155USD
+              </Link>
+              <Link  to="/">
+              <div >
+                 <div className="main-content">
+                      <div className="data-wrapper">
+                      
+                          <div className="estate-type">
+                              <div className="image-field">
+                               <StaticImage alt="" src="../../../images/room2.jpg" quality={60} formats={["auto", "webp", "avif"]} />
+              
+                                
+                                <div className="overlay">
+                                <div className="overlay-2"></div>
+                                      
+                                  <div className="content">
+                                      <Container> 
+                                      <div className="block">
+                                             
+                                      <div className="desc"> 
+                                      <div className='desc-main'>
+                                          <h2>Ocean Suite Balcony</h2>
+                                          <p>$175USD/N</p>
+                                        </div>
+                                     
+                                        <div>
+                                            <p>Room with two queen beds and direct pool deck access.<br />
+                                               - 4 Guests <br />
+                                               - Daily Cleaning< br/>
+                                               - Room Service<br />
+                                               - Housekeeping<br />
+                                               - Wi-Fi<br />
+
+
+                                            </p>
+                                        </div>
+                                        <a className='book-button'>
+                                          Book
+                                        </a>
+                                       
+                                       
+                                        </div>       
+                                         
+                                     </div>
+                                      </Container>
+                                  </div>
+                                  
+                                  
+                                  </div>
+
+
+                              </div>
+          
+                          </div> 
+                   
+
+                      </div>
+                      
+                  </div> 
+                
               </div>
-              <div className='room-cont'>
-                <h2>The Ocean View Pool Deck</h2>
-                <ul className="room-specs">
-                    <li>120M2</li>
-                    <li>2 Beds</li>
-                    <li>Ocean View</li>
-                </ul>
-                <p id="desc">
-                Beautiful oceanfront junior suites with a balcony.
-                Each sunlit suite is serenely outfitted with a relaxing king bed, private bath, private balcony and ocean view. The Suites also come equipped with a fully furnished kitchenette and a table and chairs to give you a little dining flexibility. 
-                </p>
-                <span>
-                    Room Details
-                    <i className="fa fa-long-arrow-right"></i>
-                </span>
+              </Link>
+              <Link  to="/">
+              <div >
+                 <div className="main-content">
+                      <div className="data-wrapper">
+                      
+                          <div className="estate-type">
+                              <div className="image-field">
+                               <StaticImage alt="" src="../../../images/room3.jpg" quality={60} formats={["auto", "webp", "avif"]} />
+              
+                                
+                                <div className="overlay">
+                                <div className="overlay-2"></div>
+                                     
+                                  <div className="content">
+                                      <Container> 
+                                      <div className="block">
+                                             
+                                      <div className="desc"> 
+                                      <div className='desc-main'>
+                                          <h2>Ocean Pool Deck</h2>
+                                          <p>$180USD/N</p>
+                                        </div>
+                                     
+                                        <div>
+                                            <p>Room with two queen beds and direct pool deck access.<br />
+                                               - 4 Guests <br />
+                                               - Daily Cleaning< br/>
+                                               - Room Service<br />
+                                               - Housekeeping<br />
+                                               - Wi-Fi<br />
+
+
+                                            </p>
+                                        </div>
+                                        <a className='book-button'>
+                                          Book
+                                        </a>
+                                       
+                                       
+                                        </div>       
+                                         
+                                     </div>
+                                      </Container>
+                                  </div>
+                                  
+                                  
+                                  </div>
+
+
+                              </div>
+          
+                          </div> 
+                   
+
+                      </div>
+                      
+                  </div> 
+                
               </div>
-            </a>
-        </div>
-        <div className='col-sm-4'>
-            <a href="">
-              <StaticImage alt="" src="../../../images/room-3.png" quality={60} formats={["auto", "webp", "avif"]} />
-              <div className='room-price'>
-                From $185USD
+              </Link>
+              <Link  to="/">
+              <div >
+                 <div className="main-content">
+                      <div className="data-wrapper">
+                      
+                          <div className="estate-type">
+                              <div className="image-field">
+                               <StaticImage alt="" src="../../../images/room4.jpg" quality={60} formats={["auto", "webp", "avif"]} />
+              
+                                
+                                <div className="overlay">
+                                <div className="overlay-2"></div>
+                                     
+                                  <div className="content">
+                                      <Container> 
+                                      <div className="block">
+                                             
+                                      <div className="desc">
+                                      <div className='desc-main'>
+                                          <h2>Ocean View Balcony</h2>
+                                          <p>$185USD/N</p>
+                                        </div>
+                                     
+                                        <div>
+                                            <p>Room with two queen beds and direct pool deck access.<br />
+                                               - 4 Guests <br />
+                                               - Daily Cleaning< br/>
+                                               - Room Service<br />
+                                               - Housekeeping<br />
+                                               - Wi-Fi<br />
+
+
+                                            </p>
+                                        </div>
+                                        <a className='book-button'>
+                                          Book
+                                        </a>
+                                       
+                                       
+                                        </div>       
+                                         
+                                     </div>
+                                      </Container>
+                                  </div>
+                                  
+                                  
+                                  </div>
+
+
+                              </div>
+          
+                          </div> 
+                   
+
+                      </div>
+                      
+                  </div> 
+                
               </div>
-              <div className='room-cont'>
-                <h2>The Ocean View Balcony</h2>
-                <ul className="room-specs">
-                    <li>120M2</li>
-                    <li>2 Beds</li>
-                    <li>Ocean View</li>
-                </ul>
-                <p id="desc">
-                Beautiful oceanfront junior suites with a balcony.
-                Each sunlit suite is serenely outfitted with a relaxing king bed, private bath, private balcony and ocean view. The Suites also come equipped with a fully furnished kitchenette and a table and chairs to give you a little dining flexibility. 
-                </p>
-                <span>
-                    Room Details
-                    <i className="fa fa-long-arrow-right"></i>
-                </span>
+              </Link>
+             
               </div>
-            </a>
-        </div>
+          
+          </div>
+         </div>
+      <div className='row'>
+       
         <a className="all-button" href="">
             View All Rooms
         </a>

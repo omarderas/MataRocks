@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
+import "../less/animations.scss"
 
 import Header from "./header";
 import Footer from "./footer";
