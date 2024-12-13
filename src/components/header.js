@@ -16,9 +16,9 @@ const Header = ({ siteTitle }) => (
            </a>
 <div className="contact-block">
 
-  <a title="" href="tel:5016624626">
+  <a title="" href="tel:">
   <i class="fa fa-phone" aria-hidden="true"></i>
-   <span> TEL: 501-662-4626</span>
+   <span> TEL: +(501) 226 2336</span>
   </a>
 </div>
 
@@ -33,27 +33,22 @@ const Header = ({ siteTitle }) => (
       </li>
       
       <li class="nav-item dropdown">
-        <a title="" class="nav-link dropdown-toggle" href="/all-tours" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Our Tours
+        <a title="" class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Our Rooms
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a title="" class="dropdown-item" href="">View All Tours</a>
-        <a title="" class="dropdown-item" href="">5-Mile Cave Kayaking</a>
-        <a title="" class="dropdown-item" href="">Cave Tubing</a>
-        <a title="" class="dropdown-item" href="">Jungle Zipline</a>
-        <a title="" class="dropdown-item" href="">Jungle ATV</a>
-        <a title="" class="dropdown-item" href="">Crystal Cave</a>
-        <a title="" class="dropdown-item" href="">ATM Cave</a>
-        <a title="" class="dropdown-item" href="">Xunantunich & Cahal Pech</a>
+        <a title="" class="dropdown-item" href="">View All Rooms</a>
+        <a title="" class="dropdown-item" href="">Junior Suite</a>
+       
   
           
         </div> 
       </li>
       <li class="nav-item">
-        <a title="" class="nav-link" href="">Pick Up & Drop Off</a>
+        <a title="" class="nav-link" href="">Services</a>
       </li>
       <li class="nav-item">
-        <a title="" class="nav-link" href="">About Us</a>
+        <a title="" class="nav-link" href="">Activities</a>
       </li>
       <li class="nav-item">
         <a title="" class="nav-link" href="">Contact Us</a>
