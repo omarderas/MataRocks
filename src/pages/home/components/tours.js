@@ -65,7 +65,7 @@ const Tours = () => {
           <div className="row two">
             {images.map((imgSrc, index) => (
               <a
-                href="#"
+                
                 className="column"
                 key={index}
                 onMouseEnter={() => handleMouseEnter(index)}

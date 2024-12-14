@@ -18,11 +18,9 @@
         background-size: cover;
   
         z-index: 2;
-        &{
-            @media(min-width: 992px){
+       
                 animation: zoomIn 13s ease-in-out forwards;
-            }
-        }
+         
     }
     .hero-absolute{
         position: relative;
@@ -340,8 +338,11 @@
                                   }
 
                                   .image-field{
-                                      
+                                    .gatsby-image-wrapper.gatsby-image-wrapper-constrained{
+                                        height: 100%;
+                                    }
                                       position: relative;
+                                      height: 100%;
                                       img{
                                           height: auto!important;
                                           margin-bottom: 0;
@@ -356,8 +357,9 @@
                                           transition: all 0.35s;
                                           &{
                                             @media(max-width: 576px){
-                                                max-height: 500px!important;
-                                                min-height: 250px!important;
+                                              //  max-height: 500px!important;
+                                                min-height: 100%!important;
+                                                height: 100%!important;
                                          
                                            }
                                           }
@@ -429,7 +431,7 @@
                                                             // margin-top: 206px;
                                                          }
                                                          @media(max-width: 426px){
-                                                             margin-top: 216px;
+                                                             margin-top: 215px;
                                                              padding: 10px;
                                                          }
                                                          @media(min-width: 427px) and (max-width: 575px){
@@ -538,7 +540,7 @@
                                                                                 z-index: 9999;
                                                                                 font-family: "Baskervville", sans-serif;
                                                                                 margin-bottom: -14px;
-                                                                                font-size: 17px;
+                                                                                font-size: 15px;
                                                                                 font-weight: bold;
                                                                                 text-transform: uppercase;
                                                                                 letter-spacing: 1px;
@@ -639,7 +641,7 @@
                                                                             &{
                                                                                 @media(max-width: 575px){
                                                                                     margin-top: 5px!important;
-                                                                                    display: none;
+                                                                                   // display: none;
                                                                                 }
                                                                             }
                                                                             &{

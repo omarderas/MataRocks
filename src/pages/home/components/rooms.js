@@ -16,14 +16,14 @@ function Rooms() {
           
             <div className="photos">
        
-            <Link  to="/">
+            <Link  to="">
               <div >
                  <div className="main-content">
                       <div className="data-wrapper">
                       
                           <div className="estate-type">
                               <div className="image-field">
-                               <StaticImage alt="" src="../../../images/room1.jpg" quality={60} formats={["auto", "webp", "avif"]} />
+                               <StaticImage alt="" src="../../../images/room1New.jpg" quality={60} formats={["auto", "webp", "avif"]} />
               
                                 
                                 <div className="overlay">
@@ -74,14 +74,14 @@ function Rooms() {
                 
               </div>
               </Link>
-              <Link  to="/">
+              <Link  to="">
               <div >
                  <div className="main-content">
                       <div className="data-wrapper">
                       
                           <div className="estate-type">
                               <div className="image-field">
-                               <StaticImage alt="" src="../../../images/room2.jpg" quality={60} formats={["auto", "webp", "avif"]} />
+                               <StaticImage alt="" src="../../../images/room2Main.jpg" quality={60} formats={["auto", "webp", "avif"]} />
               
                                 
                                 <div className="overlay">
@@ -134,7 +134,7 @@ function Rooms() {
                 
               </div>
               </Link>
-              <Link  to="/">
+              <Link  to="">
               <div >
                  <div className="main-content">
                       <div className="data-wrapper">
@@ -194,7 +194,7 @@ function Rooms() {
                 
               </div>
               </Link>
-              <Link  to="/">
+              <Link  to="">
               <div >
                  <div className="main-content">
                       <div className="data-wrapper">

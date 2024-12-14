@@ -95,6 +95,8 @@ header {
     }
     @media(max-width: 991px){
         background-color: rgb(5, 17, 20);
+        position: relative;
+        z-index: 999;
         .navbar-light .navbar-toggler {
             color: #FFD28D;
             border-color: #e9dbd8;
