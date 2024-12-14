@@ -25,11 +25,11 @@ header {
      }
     }
     @media(max-width: 768px){
-    .navbar-light .navbar-brand {
+    .brand {
         width: 35%;
-        .gatsby-image-wrapper{
+        svg{
            
-               // width: 50%;
+                width: 150%;
           
         }
     }

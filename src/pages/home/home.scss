@@ -631,6 +631,7 @@
                                                                             &{
                                                                                 @media(max-width: 575px){
                                                                                     margin-top: 5px!important;
+                                                                                    display: none;
                                                                                 }
                                                                             }
                                                                             &{
@@ -860,6 +861,12 @@
                 font-size: 25px;
                 font-style: italic;
                 font-weight: 400;
+                &{
+                    @media(max-width: 575px){
+                        font-size: 20px;
+                    
+                    }
+                }
             }
             h1{
                 color: #fff;
@@ -874,7 +881,7 @@
                 }
                 &{
                     @media(max-width: 575px){
-                        font-size: 35px;
+                        font-size: 27px;
                     
                     }
                 }
