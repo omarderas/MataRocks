@@ -4,6 +4,7 @@ import tours2 from "../../../images/fishing.png";
 import tours3 from "../../../images/diving.jpg";
 import tours4 from "../../../images/tubing-new.jpg";
 import "../../../less/animations.scss";
+import { Container } from 'react-bootstrap';
 
 const Tours = () => {
   const [hoveredIndex, setHoveredIndex] = useState(0);
@@ -43,8 +44,20 @@ const Tours = () => {
           biodiverse natural wonders, <br />
           discover Belize with our certified tours and activities.
         </p>
+        <a className="all-button" href="">View Tours</a>
 
-        <div className="homeMain">
+
+      </div>
+      <div className='tours-header'>
+           <span>
+            <h1>Our Top Picks for you!</h1>
+            <h2>Discover Belize 
+            <i class="fa fa-long-arrow-right"></i>
+            </h2>
+            </span>
+      </div>
+      <div className="homeMain">
+    
           <div className="row two">
             {images.map((imgSrc, index) => (
               <a
@@ -56,7 +69,7 @@ const Tours = () => {
                 <div className="absolute-content">
                   <h2>Price: {index === 0 ? "$75 USD" : "$50 USD"}</h2>
                   <h1>
-                    {index === 0
+                      {index === 0
                       ? "Snorkeling"
                       : index === 1
                       ? "Fishing"
@@ -84,7 +97,6 @@ const Tours = () => {
             ))}
           </div>
         </div>
-      </div>
     </div>
   );
 };

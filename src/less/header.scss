@@ -51,15 +51,19 @@ header {
     }
     
     .contact-block{
-        padding-bottom: 10px;
+       // padding-bottom: 10px;
         a{
             text-decoration: none;
             font-family: "Prompt", sans-serif;
-            font-weight: 600;
+            //font-weight: 600;
             font-style: normal;
-            color: #e6dcd2;
+            color: #fff;
             text-transform: uppercase;
             font-size: 18px;
+            transition: all .2s ease-in-out;
+            &:hover{
+                color: #FFD28D;
+            }
             @media(min-width: 1221px){
                 .fa{
                     display: none;
@@ -163,7 +167,7 @@ header {
         font-family: "Prompt", sans-serif;
         font-weight: 400;
         font-style: normal;
-        color: #e6dcd2;
+        color: #fff;
         text-transform: uppercase;
         font-size: 16px;
         letter-spacing: 1px;
@@ -200,16 +204,19 @@ header {
         font-weight: 400;
         font-style: normal;
         display: block;
-        background-color: rgb(255, 210, 141);
+       transition: all .2s ease-in-out;
         text-transform: uppercase;
         letter-spacing: 1px;
         width: -webkit-fit-content;
         width: -moz-fit-content;
         width: fit-content;
         margin: 0 auto;
-        border-top: 1px solid rgb(255, 210, 141);
-        border-bottom: 1px solid rgb(255, 210, 141);
+        border: 1px solid #fff;
         padding: 10px;
+        &:hover{
+            background-color: #FFD28D;
+            color: rgb(4, 13, 16);
+        }
     }
 }
 

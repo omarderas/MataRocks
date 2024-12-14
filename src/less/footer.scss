@@ -71,6 +71,25 @@
                        
                       
                     }
+                    p#last-item{
+                        padding-top: 20px;
+                        color: #FFD28D;
+                        opacity: 1;
+                        a{
+                           img{
+                            padding-top: 10px;
+                           } 
+                           .gatsby-image-wrapper{
+                           
+                            transition: all .4s ease-in-out;
+                        }
+                     
+                         &:hover .gatsby-image-wrapper{
+                            transition: all .4s ease-in-out;
+                            transform: scale(1.04);
+                          } 
+                        }
+                    }
                     p#social-main{
                         margin-top: 0px;
                         padding-right: 10px;
@@ -80,7 +99,7 @@
                         padding-top: 20px;
                         margin-left: 0;
                         li{
-                            display: inline-flex;
+                           display: inline-flex;
                             list-style: none;
                             a{
                                 margin-right: 17px;
@@ -104,6 +123,22 @@
                                 
                             }
                             a:hover svg{
+                                transform: scale(1.2);
+                            }
+                        }
+                        li#badges{
+                            padding-top: 20px;
+                            .gatsby-image-wrapper{
+                                width: 150px;
+                                transition: all .4s ease-in-out;
+                            }
+                            a:nth-child(1){
+                                .gatsby-image-wrapper{
+                                    width: 120px;
+                                }
+                            }
+                            a:hover .gatsby-image-wrapper{
+                                transition: all .4s ease-in-out;
                                 transform: scale(1.2);
                             }
                         }
@@ -157,7 +192,7 @@
             // background-color: #021a2c;
             padding: 15px;
             margin-bottom: -2px;
-            margin-top: 80px;
+            margin-top: 20px;
             padding: 16px 0;
              border-top: 1px solid rgba(255,255,255,.1);
             p{

@@ -25,12 +25,14 @@ Pedro? Simply email us below with your name, email, and message, and we’ll be 
                 </a>
                
                     <ul className="social">
-                                <li>
-                                   
-                                    <a href="https://www.facebook.com/matarocksresort/" target="_blank">
-                                    <FaFacebookF /></a>
-                                    <a href="https://www.instagram.com/matarocksresort/" target="_blank"><FaInstagram /></a>
-                                 
+                           
+                                <li id="badges">
+                                    <a href="">
+                                        <StaticImage src="../images/badge.png" />
+                                    </a>
+                                    <a href="">
+                                        <StaticImage src="../images/badge2.png" />
+                                    </a>
                                 </li>
                             
                     </ul>
@@ -54,6 +56,12 @@ Pedro? Simply email us below with your name, email, and message, and we’ll be 
                         Hours:
                    
                     <a href=""> Mon - Sun, 8:00am to 4:00pm CST</a>
+                    </p>
+                    <p id="last-item">
+                      Book a room at our Flagship Hotel.
+                      <a href="https://barefoothotelbelize.com/" target="_blank">
+                        <StaticImage src="../images/Barefoot-Logo12.jpg" />
+                      </a>
                     </p>
                 </div>
             </div>

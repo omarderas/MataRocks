@@ -38,14 +38,17 @@ const Header = ({ siteTitle }) => (
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         <a title="" class="dropdown-item" href="">View All Rooms</a>
-        <a title="" class="dropdown-item" href="">Junior Suite</a>
-       
-  
-          
+        <a title="" class="dropdown-item" href="">Oceanfront Junior Suite</a>
+        <a title="" class="dropdown-item" href="">Oceanfront Pool Deck</a>
+        <a title="" class="dropdown-item" href="">Oceanfront Balcony</a>
+        <a title="" class="dropdown-item" href="">Oceanfront Two Queens</a>
         </div> 
       </li>
       <li class="nav-item">
         <a title="" class="nav-link" href="">Services</a>
+      </li>
+      <li class="nav-item">
+        <a title="" class="nav-link" href="">Dine In</a>
       </li>
       <li class="nav-item">
         <a title="" class="nav-link" href="">Activities</a>

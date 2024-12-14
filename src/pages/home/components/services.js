@@ -20,7 +20,7 @@ the perfect way to discover Ambergris Caye and make the most of your stay.</p>
         <div className='row'>
             <div className='col-sm-4'>
                 <a href="">
-                 <StaticImage alt="" src="../../../images/golf-cart.png" quality={60} formats={["auto", "webp", "avif"]} />
+                 <StaticImage alt="" src="../../../images/new-golf-cart.png"  formats={["auto", "webp", "avif"]} />
                   <div className='hero-button'>
                     <span>Read More</span>
                   </div>

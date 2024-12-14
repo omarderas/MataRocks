@@ -6,7 +6,7 @@ function About() {
         <div className='cont'>
             <div className='row'>
                  <div className='col-sm-6'>
-                        <h2>Let's make a thoast!</h2>
+                        <h2>Dine with Us!</h2>
                         <h1>Beachfront Bar <span>On The Rocks</span></h1>
                         <p>Sip, Savor, and Relax by the Waves!
 Enjoy expertly crafted cocktails, fine wine, and ice-cold beer at our stunning beachfront bar. Don’t miss

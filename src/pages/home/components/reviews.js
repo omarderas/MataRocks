@@ -3,6 +3,7 @@ import React from 'react'
 function Reviews() {
   return (
     <div className='reviews-main'>
+      <div className='rev-overlay'></div>
         <div className='reviews-cont'>
             <div className='reviews-header'>
                 <h1>See What Our Guests have to say.</h1>
