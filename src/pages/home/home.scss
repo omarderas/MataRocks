@@ -346,13 +346,21 @@
                                           height: auto!important;
                                           margin-bottom: 0;
                                           max-height: 500px!important;
-                                         min-height: 400px!important;
+                                          min-height: 400px!important;
+                                  
                                           -o-object-fit: cover;
                                           object-fit: cover;
                                          // padding: 2px!important;
                                           width: 100%!important;
                                           aspect-ratio: 3/2;
                                           transition: all 0.35s;
+                                          &{
+                                            @media(max-width: 576px){
+                                                max-height: 500px!important;
+                                                min-height: 250px!important;
+                                         
+                                           }
+                                          }
                                       }
 
         
