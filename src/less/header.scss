@@ -20,7 +20,7 @@ header {
     margin: 0 auto;
      &{
         @media(max-width: 991px){
-            justify-content: center!important;
+            //justify-content: center!important;
         }
      }
     }
@@ -73,6 +73,11 @@ header {
                 @media(max-width: 1220px){
                     display: none;
                 }
+            }
+        }
+        &{
+            @media(max-width: 991px){
+                display: none;
             }
         }
     }
@@ -216,6 +221,11 @@ header {
         &:hover{
             background-color: #FFD28D;
             color: rgb(4, 13, 16);
+        }
+    }
+    &{
+        @media(max-width: 1199px){
+            display: none;
         }
     }
 }

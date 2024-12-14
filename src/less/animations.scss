@@ -38,3 +38,14 @@
         color: #051114!important;
     }
   }
+
+  .secondary-cont {
+    padding-top: 15px;
+    &{
+      @media(min-width: 576px) and (max-width: 767px){
+        padding-top: 26px;
+
+         }
+     }
+ 
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { StaticImage } from "gatsby-plugin-image"
 import tours1 from "../../../images/snorkel.jpg";
 import tours2 from "../../../images/fishing.png";
 import tours3 from "../../../images/diving.jpg";
@@ -32,6 +33,9 @@ const Tours = () => {
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
       ></iframe>
+      <span>
+       <StaticImage src="../../../images/mata-rocks-bg.jpg" />
+       </span>
       <div className="overlay"></div>
       <div className="absolute-content">
         <h2>Feel the Thrill!</h2>

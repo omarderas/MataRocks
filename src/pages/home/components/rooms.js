@@ -38,7 +38,7 @@ function Rooms() {
                                           <h2>Ocean Front Suite</h2>
                                           <p>$140USD/N</p>
                                         </div>
-                                        <div>
+                                        <div className='secondary-cont'>
                                             <p>Room with two queen beds and direct pool deck access.<br />
                                                - 4 Guests <br />
                                                - Daily Cleaning< br/>
@@ -97,7 +97,7 @@ function Rooms() {
                                           <p>$175USD/N</p>
                                         </div>
                                      
-                                        <div>
+                                        <div className='secondary-cont'>
                                             <p>Room with two queen beds and direct pool deck access.<br />
                                                - 4 Guests <br />
                                                - Daily Cleaning< br/>
@@ -157,7 +157,7 @@ function Rooms() {
                                           <p>$180USD/N</p>
                                         </div>
                                      
-                                        <div>
+                                        <div className='secondary-cont'>
                                             <p>Room with two queen beds and direct pool deck access.<br />
                                                - 4 Guests <br />
                                                - Daily Cleaning< br/>
@@ -217,7 +217,7 @@ function Rooms() {
                                           <p>$185USD/N</p>
                                         </div>
                                      
-                                        <div>
+                                        <div className='secondary-cont'>
                                             <p>Room with two queen beds and direct pool deck access.<br />
                                                - 4 Guests <br />
                                                - Daily Cleaning< br/>
