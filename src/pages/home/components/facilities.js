@@ -5,7 +5,7 @@ function Facilities() {
     <div className='facilities-main'>
          <div className='cont'>
             <div className='title'>
-             <h2>Facilities</h2>
+             
              <h1>Resort Facilities</h1>
              </div>
              <div className='row'>

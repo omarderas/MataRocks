@@ -231,6 +231,18 @@ header {
         }
     }
 }
+li.nav-item.dropdown-toggle::after {
+ display: none!important;
+}
 
-
+@media(max-width: 991px){
+    #desktop-link{
+        display: none;
+    }
+}
+@media(min-width: 992px){
+    #mobile-link{
+        display: none;
+    }
+}
 }

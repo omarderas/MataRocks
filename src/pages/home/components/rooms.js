@@ -50,7 +50,7 @@ function Rooms() {
                                             </p>
                                         </div>
                                         <a className='book-button'>
-                                          Book
+                                        Book Now
                                         </a>
                                        
                                         </div>       
@@ -109,7 +109,7 @@ function Rooms() {
                                             </p>
                                         </div>
                                         <a className='book-button'>
-                                          Book
+                                        Book Now
                                         </a>
                                        
                                        
@@ -169,7 +169,7 @@ function Rooms() {
                                             </p>
                                         </div>
                                         <a className='book-button'>
-                                          Book
+                                        Book Now
                                         </a>
                                        
                                        
@@ -229,7 +229,7 @@ function Rooms() {
                                             </p>
                                         </div>
                                         <a className='book-button'>
-                                          Book
+                                          Book Now
                                         </a>
                                        
                                        
@@ -260,7 +260,7 @@ function Rooms() {
           </div>
          </div>
       <div className='row'>
-       
+      <script src="https://us2.cloudbeds.com/widget/load/Ii3x4t/vert?newWindow=1"></script>
         <a className="all-button" href="">
             View All Rooms
         </a>

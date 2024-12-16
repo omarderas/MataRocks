@@ -54,7 +54,7 @@ const Tours = () => {
       </div>
       <div className='tours-header'>
            <span>
-            <h1>Our Top Picks for you!</h1>
+            <h1>Our Top Adventure Picks for you!</h1>
             <h2>Discover Belize 
             <i class="fa fa-long-arrow-right"></i>
             </h2>

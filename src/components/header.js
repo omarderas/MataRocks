@@ -10,13 +10,13 @@ import Logo from "../images/logo";
 
 const Header = ({ siteTitle }) => (
   <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light desktop">
   <a className="brand" title="" href="/">  
              <Logo />
            </a>
 <div className="contact-block">
 
-  <a title="" href="tel:">
+  <a title="" href="tel:+5012262336">
   <i class="fa fa-phone" aria-hidden="true"></i>
    <span> TEL: +(501) 226 2336</span>
   </a>
@@ -32,16 +32,28 @@ const Header = ({ siteTitle }) => (
         <a title="" class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       
-      <li class="nav-item dropdown">
+      <li id="desktop-link" class="nav-item dropdown">
         <a title="" class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Our Rooms
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a title="" class="dropdown-item" href="">View All Rooms</a>
-        <a title="" class="dropdown-item" href="">Oceanfront Junior Suite</a>
-        <a title="" class="dropdown-item" href="">Oceanfront Pool Deck</a>
-        <a title="" class="dropdown-item" href="">Oceanfront Balcony</a>
-        <a title="" class="dropdown-item" href="">Oceanfront Two Queens</a>
+          <a title="" class="dropdown-item" href="">View All Rooms</a>
+          <a title="" class="dropdown-item" href="">Oceanfront Junior Suite</a>
+          <a title="" class="dropdown-item" href="">Oceanfront Pool Deck</a>
+          <a title="" class="dropdown-item" href="">Oceanfront Balcony</a>
+          <a title="" class="dropdown-item" href="">Oceanfront Two Queens</a>
+        </div> 
+      </li>
+      <li id="mobile-link" class="nav-item dropdown-toggle">
+        <a title="" class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Our Rooms
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a title="" class="dropdown-item" href="">View All Rooms</a>
+          <a title="" class="dropdown-item" href="">Oceanfront Junior Suite</a>
+          <a title="" class="dropdown-item" href="">Oceanfront Pool Deck</a>
+          <a title="" class="dropdown-item" href="">Oceanfront Balcony</a>
+          <a title="" class="dropdown-item" href="">Oceanfront Two Queens</a>
         </div> 
       </li>
       <li class="nav-item">
@@ -60,11 +72,12 @@ const Header = ({ siteTitle }) => (
    
   </div>
   <div className="book-button">
-    <a href="">
+    <a href="https://us2.cloudbeds.com/en/reservation/Ii3x4t?currency=usd" target="_blank">
       Book Now
     </a>
   </div>
 </nav>
+
   </header>
 )
 

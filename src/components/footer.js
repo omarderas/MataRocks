@@ -60,7 +60,7 @@ Pedro? Simply email us below with your name, email, and message, and we’ll be 
                     <p id="last-item">
                       Book a room at our Flagship Hotel.
                       <a href="https://barefoothotelbelize.com/" target="_blank">
-                        <StaticImage src="../images/Barefoot-Logo12.jpg" />
+                        <StaticImage src="../images/Barefoot-Logo-wht.png" />
                       </a>
                     </p>
                 </div>

@@ -15,7 +15,7 @@ export default function HTML(props) {
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossOrigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossOrigin="anonymous"></script>
     <script src="https://static.elfsight.com/platform/platform.js" async></script>
-    
+    <script src="https://us2.cloudbeds.com/widget/load/Ii3x4t/immersive"></script>
        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="theme-color" content="#002855" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
