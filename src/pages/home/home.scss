@@ -918,6 +918,7 @@
                     }
                 }
              }
+          
          }
          .tours-header{
             background-color: #040D10;
@@ -983,6 +984,9 @@
                 &:hover .absolute-content:after{
                     height: 20%;
                 }
+                &:hover .absolute-content a.book-button{
+                    opacity: 1;
+                }
                 .absolute-content{
                     padding: 10px;
                     padding-top: 40px!important;
@@ -1006,6 +1010,12 @@
                             font-size: 28px;
                         }
                     }
+                    a.book-button{
+                        margin: 0 auto;
+                        display: block!important;
+                       margin-top: 90px!important;
+                        opacity: 0;
+                     }
                     &:after{
                         content: '';
                         position: absolute;

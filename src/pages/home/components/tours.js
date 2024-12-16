@@ -72,6 +72,7 @@ const Tours = () => {
               >
                 <div className="absolute-content">
                   <h2>Price: {index === 0 ? "$75 USD" : "$50 USD"}</h2>
+                 
                   <h1>
                       {index === 0
                       ? "Snorkeling"
@@ -81,6 +82,9 @@ const Tours = () => {
                       ? "Diving Blue Hole"
                       : "Cave Tubing"}
                   </h1>
+                  <a href="" className='book-button' >
+                      View Tour
+                  </a>
                 </div>
               </a>
             ))}

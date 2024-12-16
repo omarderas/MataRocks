@@ -56,8 +56,31 @@
      }
      @media(max-width: 426px){
       padding-top: 5px;
+  } 
+}
+
+a.book-button{
+                                                                        
+  color: #fff;
+  text-decoration: none;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: fit-content;
+  border: 1px solid #fff;
+  transition: .2s ease-in-out;
+  padding: 5px 10px 5px 10px;
+  
+  z-index: 99999;
+
+  &:hover{
+      border-color: #FFD28D;
+      background-color: #FFD28D;
+      color: #051114;
+      font-weight: bold;
   }
-
-
- 
 }

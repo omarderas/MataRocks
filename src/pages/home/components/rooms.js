@@ -35,7 +35,7 @@ function Rooms() {
                                       <div className="desc"> 
                                         <div className='desc-main'>
                                           <h2>Ocean Front Suite</h2>
-                                          <p>$140USD/N</p>
+                                          <p>$140 USD/N</p>
                                         </div>
                                         <div className='secondary-cont'>
                                             <p>Room with two queen beds and direct pool deck access.<br />
@@ -92,7 +92,7 @@ function Rooms() {
                                       <div className="desc"> 
                                       <div className='desc-main'>
                                           <h2>Ocean Suite Balcony</h2>
-                                          <p>$175USD/N</p>
+                                          <p>$175 USD/N</p>
                                         </div>
                                      
                                         <div className='secondary-cont'>
@@ -151,7 +151,7 @@ function Rooms() {
                                       <div className="desc"> 
                                       <div className='desc-main'>
                                           <h2>Ocean Pool Deck</h2>
-                                          <p>$180USD/N</p>
+                                          <p>$180 USD/N</p>
                                         </div>
                                      
                                         <div className='secondary-cont'>
@@ -210,7 +210,7 @@ function Rooms() {
                                       <div className="desc">
                                       <div className='desc-main'>
                                           <h2>Ocean View Balcony</h2>
-                                          <p>$185USD/N</p>
+                                          <p>$185 USD/N</p>
                                         </div>
                                      
                                         <div className='secondary-cont'>
