@@ -75,6 +75,8 @@
                         padding-top: 20px;
                         color: #FFD28D;
                         opacity: 1;
+                        font-weight: bold;
+                        letter-spacing: 1.5px;
                         a{
                            img{
                             padding-top: 10px;
@@ -82,6 +84,7 @@
                            .gatsby-image-wrapper{
                            
                             transition: all .4s ease-in-out;
+                            max-width: 50%;
                         }
                      
                          &:hover .gatsby-image-wrapper{
