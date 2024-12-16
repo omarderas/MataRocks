@@ -16,7 +16,7 @@ function Rooms() {
           
             <div className="photos">
        
-            <Link  to="">
+            <a href="">
               <div >
                  <div className="main-content">
                       <div className="data-wrapper">
@@ -73,8 +73,8 @@ function Rooms() {
                   </div> 
                 
               </div>
-              </Link>
-              <Link  to="">
+              </a>
+              <a href="">
               <div >
                  <div className="main-content">
                       <div className="data-wrapper">
@@ -133,8 +133,8 @@ function Rooms() {
                   </div> 
                 
               </div>
-              </Link>
-              <Link  to="">
+              </a>
+              <a href="">
               <div >
                  <div className="main-content">
                       <div className="data-wrapper">
@@ -193,8 +193,8 @@ function Rooms() {
                   </div> 
                 
               </div>
-              </Link>
-              <Link  to="">
+              </a>
+              <a href="">
               <div >
                  <div className="main-content">
                       <div className="data-wrapper">
@@ -253,7 +253,7 @@ function Rooms() {
                   </div> 
                 
               </div>
-              </Link>
+              </a>
              
               </div>
           
