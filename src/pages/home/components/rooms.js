@@ -64,7 +64,7 @@ function Rooms() {
 
                               </div>
           
-                          </div> 
+                          </div>                  
                    
 
                       </div>
