@@ -34,7 +34,7 @@ function Rooms() {
                                              
                                       <div className="desc"> 
                                         <div className='desc-main'>
-                                          <h2>Ocean Front Suite</h2>
+                                          <h2>Ocean Front Jr. Suite</h2>
                                           <p>$191 USD/N</p>
                                         </div>
                                         <div className='secondary-cont'>

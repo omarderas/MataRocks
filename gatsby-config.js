@@ -12,7 +12,7 @@ module.exports = {
     title: `Mata Rocks Resort`,
     description: `Mata Rocks is a boutique beachfront resort located on Ambergris Caye in San Pedro, Belize. The resort is situated south of the main town, approximately a 15 minute golf cart ride from the airport.`,
     author: `Jose Urbina`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://matarock.com`,
   },
   plugins: [
     `gatsby-plugin-image`,
