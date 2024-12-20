@@ -1,6 +1,6 @@
 import React from 'react'
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
-const headerImg = "../../../images/ballHeader.png";
+const headerImg = "../../../images/ballHeader-Main.png";
 
 function Pickle() {
   return (
