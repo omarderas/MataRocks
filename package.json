@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "ajv": "8.8.2",
     "gatsby": "^5.14.0",
     "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-manifest": "^5.14.0",
@@ -12,12 +13,18 @@
     "gatsby-plugin-sass": "^6.14.0",
     "gatsby-plugin-sharp": "^5.14.0",
     "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-source-graphcms": "^2.8.0",
     "gatsby-transformer-sharp": "^5.14.0",
+    "gatsby-v5-source-hygraph": "^3.0.1",
+    "node": "^23.4.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.6",
+    "react-bootstrap-tabs": "^2.0.0",
     "react-dom": "^18.2.0",
     "react-lazy-load": "^4.0.1",
-    "sass": "^1.82.0"
+    "react-slick": "^0.30.3",
+    "sass": "^1.82.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "prettier": "^2.8.8"

@@ -1,0 +1,72 @@
+.restaurant-main{
+    .main-cont{
+        background-color: #051114;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .tours-slider{
+            .slider-container{
+                .tour-slide {
+                    position: relative;
+                    padding: 15px;
+                    z-index: 999;
+                  
+                    a{ 
+                       position: relative;
+                       display:  block;
+                       width: 100%;
+                       height: 100%;
+                       z-index: 9999;
+
+                        &{
+                            &:hover{
+                                span{
+                                    opacity: 1!important;
+                                }
+                            }
+                         }
+                         .gatsby-image-wrapper{
+                            z-index: -1;
+                         }
+
+                        .absolute-desc{
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            z-index: 9;
+                            padding: 30px;
+                            
+                            span{
+                                background-color: #051114;
+                                height: 100%;
+                                width: fit-content;
+                                position: relative;
+                                display: block;
+                                padding: 35px 30px 35px 30px;
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+                                h1{
+                                    font-family: "Baskervville", serif;
+                                    color: #FFD28D;
+                                    font-size: 25px;
+                                    font-style: italic;
+                                    font-weight: 400;
+                                }
+                                p{
+                                    color: #fff;
+                                    text-decoration: none;
+                                    font-family: "Prompt", sans-serif;
+                                    font-weight: 400;
+                                    font-style: normal;
+                                    text-transform: uppercase;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

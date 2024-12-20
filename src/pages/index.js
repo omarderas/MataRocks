@@ -10,6 +10,7 @@ import Hero from "./home/components/hero"
 
 import Welcome from "./home/components/welcome"
 import Rooms from "./home/components/rooms"
+import Pickleball from "./home/components/pickleball"
 import About from "./home/components/about"
 import Tours from "./home/components/tours"
 import Facilities from "./home/components/facilities"
@@ -25,6 +26,7 @@ const IndexPage = () => (
       <Welcome />
   
     <Rooms />
+    <Pickleball />
     <About />
     <Tours />
     <Facilities />

@@ -47,7 +47,7 @@
   }
 
   .secondary-cont {
-    padding-top: 15px;
+    padding-top: 28px;
     &{
       @media(min-width: 576px) and (max-width: 767px){
         padding-top: 26px;
@@ -84,3 +84,59 @@ a.book-button{
       font-weight: bold;
   }
 }
+
+.content-header{
+  // margin-top: -37px;
+   position: relative;
+   z-index: 0;
+   @media(min-width: 992px){
+       .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
+           height: 520px;
+       }
+   }
+   @media(max-width: 991px) and (min-width: 576px){
+    .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
+        height: 325px;
+    }
+   }
+   .header-overlay{
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+       z-index: 1;
+       background-image: linear-gradient(rgba(0,0,0,0.6) 40%,rgba(0,0,0,0.4));   
+   }
+   .header-cont{
+       position: absolute;
+       width: 100%;
+       //height: 100%;
+       bottom: 100px;
+       left: 0;
+       z-index: 1;
+       text-align: center;
+       @media(max-width: 575px){
+           bottom: 5px;
+       }
+       h1{
+        color: #FFD28D;
+        font-family: "Baskervville", serif;
+        font-style: normal;
+        font-weight: 300;
+        padding-bottom: 40px;
+        font-size: 60px;
+        text-transform: uppercase;
+        display: unset;
+               @media(max-width: 575px){
+                   font-size: 30px;
+               }
+       }
+   }
+}
+
+
+  .all-rooms .rooms-main .rooms-grid .data-wrapper .gallery .image-gallery .photos .main-content .data-wrapper .estate-type {
+     
+      width: 100%;
+  }

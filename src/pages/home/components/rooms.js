@@ -256,8 +256,7 @@ function Rooms() {
           </div>
          </div>
       <div className='row'>
-      <script src="https://us2.cloudbeds.com/widget/load/Ii3x4t/vert?newWindow=1"></script>
-        <a className="all-button" href="">
+     <a className="all-button" href="/rooms">
             View All Rooms
         </a>
       </div>

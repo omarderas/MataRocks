@@ -24,7 +24,7 @@ const Tours = () => {
 
   return (
     <div className="tours-main">
-      <iframe
+   <iframe
         className="youtube-iframe"
         src="https://www.youtube.com/embed/pdzR0Tv8fcQ?autoplay=1&mute=1&loop=1&playlist=pdzR0Tv8fcQ&controls=0"
         title="YouTube video player"
