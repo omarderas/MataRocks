@@ -1,6 +1,6 @@
 import React from 'react'
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
-const headerImg = "../../../images/pickleHeader.png";
+const headerImg = "../../../images/ballHeader.png";
 
 function Pickle() {
   return (
@@ -21,7 +21,7 @@ function Pickle() {
          <p>
          Craving some friendly competition under the Belizean sun? Mata Rocks Resort boasts the exclusive pickleball court in all of San Pedro. Gather your friends or family for a lively match, perfect your serve, and enjoy this exciting sport with stunning ocean views as your backdrop.
          </p>
-         <a href="" className="all-button">Contact Us</a>
+         <a href="/coming-soon/" className="all-button">Contact Us</a>
       </div>
     </div>
   )

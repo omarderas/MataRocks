@@ -71,7 +71,7 @@ const Tours = () => {
                 onMouseEnter={() => handleMouseEnter(index)}
               >
                 <div className="absolute-content">
-                  <h2>Price: {index === 0 ? "$75 USD" : "$50 USD"}</h2>
+                  <h2>View Tour</h2>
                  
                   <h1>
                       {index === 0
@@ -82,8 +82,8 @@ const Tours = () => {
                       ? "Diving Blue Hole"
                       : "Cave Tubing"}
                   </h1>
-                  <a href="" className='book-button' >
-                      View Tour
+                  <a href="/coming-soon/" className='book-button' >
+                      Book Today
                   </a>
                 </div>
               </a>

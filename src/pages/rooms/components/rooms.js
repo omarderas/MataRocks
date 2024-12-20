@@ -19,6 +19,7 @@ function Rooms() {
                 childCount
                 price
                 slug
+                cloudbedsLink
                 description {
                   html
                   text
@@ -100,7 +101,7 @@ function Rooms() {
                                           </p>
                                         </div>
                                         <div className="book-now-block">
-                                        <a href={`${blockMap.slug}`} target="_blank" className="book-button">Book Now for <p>{blockMap.price}</p></a>
+                                        <a href={`${blockMap.cloudbedsLink}`} target="_blank" className="book-button">Book Now <p>{blockMap.price}</p></a>
                                        
                                         </div>
                                       </div>

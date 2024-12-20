@@ -32,41 +32,20 @@ const Header = ({ siteTitle }) => (
         <a title="" class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       
-      <li id="desktop-link" class="nav-item dropdown">
-        <a title="" class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Our Rooms
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a title="" class="dropdown-item" href="">View All Rooms</a>
-          <a title="" class="dropdown-item" href="">Oceanfront Junior Suite</a>
-          <a title="" class="dropdown-item" href="">Oceanfront Pool Deck</a>
-          <a title="" class="dropdown-item" href="">Oceanfront Balcony</a>
-          <a title="" class="dropdown-item" href="">Oceanfront Two Queens</a>
-        </div> 
-      </li>
-      <li id="mobile-link" class="nav-item dropdown-toggle">
-        <a title="" class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Our Rooms
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a title="" class="dropdown-item" href="">View All Rooms</a>
-          <a title="" class="dropdown-item" href="">Oceanfront Junior Suite</a>
-          <a title="" class="dropdown-item" href="">Oceanfront Pool Deck</a>
-          <a title="" class="dropdown-item" href="">Oceanfront Balcony</a>
-          <a title="" class="dropdown-item" href="">Oceanfront Two Queens</a>
-        </div> 
+      <li class="nav-item">
+        <a title="" class="nav-link" href="/rooms">Our Rooms</a>
       </li>
       <li class="nav-item">
-        <a title="" class="nav-link" href="">Services</a>
+        <a title="" class="nav-link" href="/coming-soon/">Services</a>
       </li>
       <li class="nav-item">
-        <a title="" class="nav-link" href="">Dine In</a>
+        <a title="" class="nav-link" href="/coming-soon/">Dine In</a>
       </li>
       <li class="nav-item">
-        <a title="" class="nav-link" href="">Activities</a>
+        <a title="" class="nav-link" href="/coming-soon/">Activities</a>
       </li>
       <li class="nav-item">
-        <a title="" class="nav-link" href="">Contact Us</a>
+        <a title="" class="nav-link" href="/coming-soon/">Contact Us</a>
       </li>
     </ul>
    

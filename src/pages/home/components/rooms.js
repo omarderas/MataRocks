@@ -22,7 +22,7 @@ function Rooms() {
                       
                           <div className="estate-type">
                               <div className="image-field">
-                               <StaticImage alt="" src="../../../images/room1New.jpg" quality={60} formats={["auto", "webp", "avif"]} />
+                               <StaticImage alt="" src="../../../images/room001.jpg" quality={60} formats={["auto", "webp", "avif"]} />
               
                                 
                                 <div className="overlay">
@@ -35,20 +35,20 @@ function Rooms() {
                                       <div className="desc"> 
                                         <div className='desc-main'>
                                           <h2>Ocean Front Suite</h2>
-                                          <p>$140 USD/N</p>
+                                          <p>$191 USD/N</p>
                                         </div>
                                         <div className='secondary-cont'>
-                                            <p>Room with two queen beds and direct pool deck access.<br />
+                                            <p>Our spacious ocean view junior suite is the ideal choice...<br />
                                                - 4 Guests <br />
                                                - Daily Cleaning< br/>
-                                               - Room Service<br />
+                                               - 1 Bathroom<br />
                                                - Housekeeping<br />
                                                - Wi-Fi<br />
 
 
                                             </p>
                                         </div>
-                                        <a className='book-button'>
+                                        <a className='book-button' target="_blank" href="https://us2.cloudbeds.com/reservation/Ii3x4t#room_type=OFS">
                                         Book Now
                                         </a>
                                        
@@ -79,7 +79,7 @@ function Rooms() {
                       
                           <div className="estate-type">
                               <div className="image-field">
-                               <StaticImage alt="" src="../../../images/room2Main.jpg" quality={60} formats={["auto", "webp", "avif"]} />
+                               <StaticImage alt="" src="../../../images/room002.jpg" quality={60} formats={["auto", "webp", "avif"]} />
               
                                 
                                 <div className="overlay">
@@ -92,21 +92,21 @@ function Rooms() {
                                       <div className="desc"> 
                                       <div className='desc-main'>
                                           <h2>Ocean Suite Balcony</h2>
-                                          <p>$175 USD/N</p>
+                                          <p>$185 USD/N</p>
                                         </div>
                                      
                                         <div className='secondary-cont'>
-                                            <p>Room with two queen beds and direct pool deck access.<br />
+                                            <p>Ocean View Junior Suite Balcony with king size bed, a day bed...<br />
                                                - 4 Guests <br />
-                                               - Daily Cleaning< br/>
-                                               - Room Service<br />
+                                               - 2 Beds< br/>
+                                               - 1 Bathroom<br />
                                                - Housekeeping<br />
                                                - Wi-Fi<br />
 
 
                                             </p>
                                         </div>
-                                        <a className='book-button'>
+                                        <a className='book-button' target="_blank" href="https://us2.cloudbeds.com/reservation/Ii3x4t#room_type=OJS" >
                                         Book Now
                                         </a>
                                        
@@ -138,7 +138,7 @@ function Rooms() {
                       
                           <div className="estate-type">
                               <div className="image-field">
-                               <StaticImage alt="" src="../../../images/room3.jpg" quality={60} formats={["auto", "webp", "avif"]} />
+                               <StaticImage alt="" src="../../../images/room003.jpg" quality={60} formats={["auto", "webp", "avif"]} />
               
                                 
                                 <div className="overlay">
@@ -151,21 +151,21 @@ function Rooms() {
                                       <div className="desc"> 
                                       <div className='desc-main'>
                                           <h2>Ocean Pool Deck</h2>
-                                          <p>$180 USD/N</p>
+                                          <p>$165 USD/N</p>
                                         </div>
                                      
                                         <div className='secondary-cont'>
-                                            <p>Room with two queen beds and direct pool deck access.<br />
-                                               - 4 Guests <br />
-                                               - Daily Cleaning< br/>
-                                               - Room Service<br />
-                                               - Housekeeping<br />
+                                            <p>Step into a bright and airy ocean view room with direct pool deck access.<br />
+                                               - 2 Adults <br />
+                                               - 2 Children< br/>
+                                               - 1 Bed<br />
+                                               - 1 Bathroom<br />
                                                - Wi-Fi<br />
 
 
                                             </p>
                                         </div>
-                                        <a className='book-button'>
+                                        <a className='book-button' target="_blank" href="https://us2.cloudbeds.com/reservation/Ii3x4t#room_type=8">
                                         Book Now
                                         </a>
                                        
@@ -197,7 +197,7 @@ function Rooms() {
                       
                           <div className="estate-type">
                               <div className="image-field">
-                               <StaticImage alt="" src="../../../images/room4.jpg" quality={60} formats={["auto", "webp", "avif"]} />
+                               <StaticImage alt="" src="../../../images/room004.jpg" quality={60} formats={["auto", "webp", "avif"]} />
               
                                 
                                 <div className="overlay">
@@ -210,21 +210,21 @@ function Rooms() {
                                       <div className="desc">
                                       <div className='desc-main'>
                                           <h2>Ocean View Balcony</h2>
-                                          <p>$185 USD/N</p>
+                                          <p>$175 USD/N</p>
                                         </div>
                                      
                                         <div className='secondary-cont'>
-                                            <p>Room with two queen beds and direct pool deck access.<br />
+                                            <p>Room with private balcony, perfect for a romantic getaway.<br />
                                                - 4 Guests <br />
-                                               - Daily Cleaning< br/>
-                                               - Room Service<br />
+                                               - 1 Bathroom< br/>
+                                               - 1 Bed<br />
                                                - Housekeeping<br />
                                                - Wi-Fi<br />
 
 
                                             </p>
                                         </div>
-                                        <a className='book-button'>
+                                        <a className='book-button' href="https://us2.cloudbeds.com/reservation/Ii3x4t#room_type=OVB" target="_blank">
                                           Book Now
                                         </a>
                                        

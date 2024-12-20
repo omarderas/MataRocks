@@ -36,6 +36,7 @@ fragment Rooms on Rooms {
       text
     }
   }
+  cloudbedsLink
   roomImage {
     ... on GalleryImage {
       stage

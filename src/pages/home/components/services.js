@@ -19,7 +19,7 @@ the perfect way to discover Ambergris Caye and make the most of your stay.</p>
         </div>
         <div className='row'>
             <div className='col-sm-4'>
-                <a href="">
+                <a href="/coming-soon/">
                  <StaticImage alt="" src="../../../images/new-golf-cart.png"  formats={["auto", "webp", "avif"]} />
                   <div className='hero-button'>
                     <span>Read More</span>
@@ -32,7 +32,7 @@ the perfect way to discover Ambergris Caye and make the most of your stay.</p>
                 </a>
             </div>
             <div className='col-sm-4'>
-                <a href="">
+                <a href="/coming-soon/">
                  <StaticImage alt="" src="../../../images/bikes-1.png" quality={60} formats={["auto", "webp", "avif"]} />
                   <div className='hero-button'>
                     <span>Read More</span>
@@ -44,7 +44,7 @@ the perfect way to discover Ambergris Caye and make the most of your stay.</p>
                 </a>
             </div>
             <div className='col-sm-4'>
-                <a href="">
+                <a href="/coming-soon/">
                  <StaticImage alt="" src="../../../images/kayaks.png" quality={60} formats={["auto", "webp", "avif"]} />
                   <div className='hero-button'>
                     <span>Read More</span>

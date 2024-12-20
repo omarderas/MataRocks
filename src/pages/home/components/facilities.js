@@ -10,7 +10,7 @@ function Facilities() {
              </div>
              <div className='row'>
                 <div className='col-sm-4'>
-                    <a href="">
+                    <a href="/coming-soon/">
                         <div className='cont-icon'>
                         <i className="fa fa-wifi"></i>
                         </div>
@@ -21,7 +21,7 @@ function Facilities() {
                     </a>
                 </div>
                 <div className='col-sm-4'>
-                    <a href="">
+                    <a href="/coming-soon/">
                         <div className='cont-icon'>
                         <i className="fa fa-glass"></i>
                         </div>
@@ -32,7 +32,7 @@ function Facilities() {
                     </a>
                 </div>
                 <div className='col-sm-4'>
-                    <a href="">
+                    <a href="/coming-soon/">
                         <div className='cont-icon'>
                         <i className="fa fa-futbol-o"></i>
                         </div>
@@ -46,7 +46,7 @@ function Facilities() {
              <hr />
              <div className='row'>
                 <div className='col-sm-4'>
-                    <a href="">
+                    <a href="/coming-soon/">
                         <div className='cont-icon'>
                         <i className="fa fa-sun-o"></i>
                         </div>
@@ -57,7 +57,7 @@ function Facilities() {
                     </a>
                 </div>
                 <div className='col-sm-4'>
-                    <a href="">
+                    <a href="/coming-soon/">
                         <div className='cont-icon'>
                         <i className="fa fa-bookmark"></i> 
                         </div>
@@ -68,7 +68,7 @@ function Facilities() {
                     </a>
                 </div>
                 <div className='col-sm-4'>
-                    <a href="">
+                    <a href="/coming-soon/">
                         <div className='cont-icon'>
                         <i className="fa fa-umbrella"></i>  
                         </div>
