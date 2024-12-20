@@ -9,7 +9,7 @@ import Seo from "../components/seo"
 import Hero from "./home/components/hero"
 
 import Welcome from "./home/components/welcome"
-import Rooms from "./home/components/rooms"
+import Rooms from "./rooms/components/rooms"
 import Pickleball from "./home/components/pickleball"
 import About from "./home/components/about"
 import Tours from "./home/components/tours"
@@ -23,9 +23,10 @@ const IndexPage = () => (
     <div class="elfsight-app-cf8436d9-5058-4a55-b19c-0724fcbd921d" data-elfsight-app-lazy></div>
     <Hero />
   
-      <Welcome />
-  
+    <Welcome />
+    <div className="homepage-rooms">
     <Rooms />
+    </div>
     <Pickleball />
     <About />
     <Tours />

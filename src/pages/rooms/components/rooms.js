@@ -122,6 +122,7 @@ function Rooms() {
          
         </div>
       </div>
+      <a class="all-button" href="/rooms">View All Rooms</a>
     </div>
   );
 }
