@@ -50,7 +50,7 @@ Pedro? Simply email us below with your name, email, and message, and we’ll be 
                     <p>
                         Email:
                     
-                    <a href="mailto:bookings@matarocksresort.com"> bookings@matarocksresort.com</a>
+                    <a href="mailto:reservations@matarock.com"> reservations@matarock.com</a>
                     </p>
                     <p>
                         Hours:
