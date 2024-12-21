@@ -11,7 +11,7 @@ function Services() {
                     <h1>Explore the Island Your Way!</h1>
                 </div>
                 <div className='col-sm-6'>
-                   <p>Mata Rocks offers complimentary bikes, kayaks, and paddleboards so you can explore the island at
+                   <p>Mata Rocks offers complimentary bikes so you can explore the island at
 your own pace. For effortless cruising, golf cart rentals are available. No matter your style, you'll find
 the perfect way to discover Ambergris Caye and make the most of your stay.</p>
                 </div>
@@ -27,7 +27,7 @@ the perfect way to discover Ambergris Caye and make the most of your stay.</p>
                   <div className='service-cont'>
                      <h1>Golf Cart Rentals</h1>
                      <p>Golf carts are the preferred mode of transportation in San Pedro.
-                     At Mata Rocks we have golf carts available on premises for our guests to rent. Inquire at the front desk.</p>
+                     At Mata Rocks we can arrange your golf cart for ease of rental. Inquire at the front desk.</p>
                   </div>
                 </a>
             </div>

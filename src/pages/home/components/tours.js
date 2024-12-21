@@ -80,7 +80,7 @@ const Tours = () => {
                       ? "Fishing"
                       : index === 2
                       ? "Diving Blue Hole"
-                      : "Cave Tubing"}
+                      : "View All Tours"}
                   </h1>
                   <a href="/coming-soon/" className='book-button' >
                       Book Today
