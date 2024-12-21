@@ -32,7 +32,7 @@ const IndexPage = () => (
     <Tours />
     <Facilities />
     <Services />
-    <Reviews />
+  
     
   </Layout>
 )
