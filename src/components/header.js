@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
         <a title="" class="nav-link" href="/coming-soon/">Services</a>
       </li>
       <li class="nav-item">
-        <a title="" class="nav-link" href="/coming-soon/">Dine In</a>
+        <a title="" class="nav-link" href="/restaurant-and-bar/">Dine In</a>
       </li>
       <li class="nav-item">
         <a title="" class="nav-link" href="/coming-soon/">Activities</a>
