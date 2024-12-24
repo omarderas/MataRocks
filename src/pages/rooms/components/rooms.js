@@ -101,7 +101,7 @@ function Rooms() {
                                           </p>
                                         </div>
                                         <div className="book-now-block">
-                                        <a href={`${blockMap.cloudbedsLink}`} target="_blank" className="book-button">Book Now <p>{blockMap.price}</p></a>
+                                        <a href={`${blockMap.cloudbedsLink}`} target="_blank" className="book-button">Book Now </a>
                                        
                                         </div>
                                       </div>
