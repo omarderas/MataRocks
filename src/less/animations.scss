@@ -140,3 +140,18 @@ a.book-button{
      
       width: 100%;
   }
+  .crousel-item{
+    opacity:0;
+    transition: opacity .2s !important;
+  }
+  .carousel-item.active{
+    opacity:1;
+    transition: opacity .2s !important;
+  }
+
+  span.visually-hidden{
+    display: none;
+  }
+  .carousel-control-next, .carousel-control-prev{
+    z-index: 999;
+  }
