@@ -11,20 +11,20 @@ function Hero() {
     <div className="hero-main">
         <div className='hero-absolute'>
         <div className="hero-carousel" >
-                        <Carousel>
+                        <Carousel fade>
                                 
                                     <Carousel.Item>
-                                      <StaticImage src={slide2} />   
+                                      <StaticImage src="../../../images/mataRocks-hero.jpg" />   
                                     </Carousel.Item>
 
                                     <Carousel.Item>
-                                      <StaticImage src={slide1} /> 
+                                      <StaticImage src="../../../images/slide2.png" /> 
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                      <StaticImage src={slide3} /> 
+                                      <StaticImage src="../../../images/slide3.png" /> 
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                      <StaticImage src={slide4} /> 
+                                      <StaticImage src="../../../images/slide4.png" /> 
                                     </Carousel.Item>
                                
 
@@ -34,8 +34,9 @@ function Hero() {
               <p>Be Our Guests</p>
               <h1>Escape to Paradise At <br /><span>Mata Rocks Resort</span></h1>
               <span>Discover the ultimate oceanfront getaway on San Pedro Ambergris, Belize's tropical gem. Arrive by air or sea
-and immerse yourself in relaxation and adventure. Click below to explore our resort and all the island
-has to offer!</span>
+                    and immerse yourself in relaxation and adventure. Click below to explore our resort and all the island
+                    has to offer!
+              </span>
           </div>
         </div>
       
