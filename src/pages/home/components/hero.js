@@ -11,7 +11,7 @@ function Hero() {
     <div className="hero-main">
         <div className='hero-absolute'>
         <div className="hero-carousel" >
-                        <Carousel fade >
+                        <Carousel>
                                 
                                     <Carousel.Item>
                                       <StaticImage src={slide2} />   
