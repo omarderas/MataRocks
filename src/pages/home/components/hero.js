@@ -11,24 +11,40 @@ function Hero() {
     <div className="hero-main">
         <div className='hero-absolute'>
         <div className="hero-carousel" >
-                        <Carousel fade>
-                                
-                                    <Carousel.Item>
-                                      <StaticImage src="../../../images/mataRocks-hero.jpg" />   
-                                    </Carousel.Item>
+                
+                            <div id="demo" class="carousel slide" data-ride="carousel">
 
-                                    <Carousel.Item>
-                                      <StaticImage src="../../../images/slide2.png" /> 
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                      <StaticImage src="../../../images/slide3.png" /> 
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                      <StaticImage src="../../../images/slide4.png" /> 
-                                    </Carousel.Item>
-                               
 
-                            </Carousel> 
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <StaticImage src="../../../images/mataRocks-hero.jpg" />   
+    </div>
+    <div class="carousel-item">
+    <StaticImage src="../../../images/slide2.png" /> 
+    </div>
+    <div class="carousel-item">
+    <StaticImage src="../../../images/slide3.png" /> 
+    </div>
+    <div class="carousel-item">
+     <StaticImage src="../../../images/slide4.png" /> 
+    </div>
+  </div>
+  
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 	     </div>
           <div className='absolute-cont'>
               <p>Be Our Guests</p>

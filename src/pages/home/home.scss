@@ -30,7 +30,22 @@
         margin: 0 auto;
         height: 100%;
         text-align: center;
-        
+        .hero-carousel {
+            height: 100%;
+            .carousel {
+                position: relative;
+                height: 100%;
+                .carousel-inner,.carousel-item{
+                    height: 100%;
+                }
+                .gatsby-image-wrapper {
+                    position: relative;
+                    overflow: hidden;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
         .absolute-cont{
             position: absolute;
             top: 40%;
@@ -38,7 +53,7 @@
             //height: 100%;
             left: 0;
             text-align: center;
-            z-index: 9999999999;
+            z-index: 2;
             padding: 10px;
             &{
                 @media(min-width: 768px) and (max-width: 991px){
