@@ -28,10 +28,25 @@ const Layout = ({ children }) => {
     <>
       <div className="App">
         <Header />
-        <div className="content">
+      
         <div>
         <main>{children}</main>
         </div>
+        <div className="sticky-footer">
+          <div className="cont">
+             <div>
+               <p>Discover the ultimate oceanfront getaway on SanPedro Ambergris, Belize’s tropical gem.</p>
+               <span>
+                 <a href="tel:+5012262336">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  Call Us
+                 </a>
+               </span>
+             </div>
+             <div>
+               <a href="https://us2.cloudbeds.com/en/reservation/Ii3x4t?currency=usd" target="_blank">Book Now</a>
+             </div>
+          </div>
         </div>
         <Footer />
                 
