@@ -23,6 +23,7 @@
     "react-dom": "^18.2.0",
     "react-lazy-load": "^4.0.1",
     "react-slick": "^0.30.3",
+    "react-sticky-header": "^0.2.0",
     "sass": "^1.82.0",
     "slick-carousel": "^1.8.1"
   },

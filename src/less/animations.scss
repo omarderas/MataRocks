@@ -151,6 +151,11 @@ a.book-button{
   }
 
   .sticky-footer{
+    &{
+      @media(min-width: 576px){
+          display: none;
+      }
+  }
     padding: 10px;
     background-color: #040d10;
     width: 100%;

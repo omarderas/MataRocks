@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 import "../less/animations.scss"
 
-import Header from "./header";
+import App from "./sticky-header";
 import Footer from "./footer";
 
 
@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <div className="App">
-        <Header />
+        <App />
       
         <div>
         <main>{children}</main>

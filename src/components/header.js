@@ -5,7 +5,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import  FaFacebookF  from "../images/faFacebookF";
 import  FaInstagram  from "../images/FaInstagram";
 import Logo from "../images/logo";
-
+import 'react-sticky-header/styles.css';
+import StickyHeader from 'react-sticky-header';
 
 
 const Header = ({ siteTitle }) => (

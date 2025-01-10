@@ -1,5 +1,5 @@
 
-header {
+.header {
    
     @media(min-width: 992px){
         position: absolute;
@@ -16,7 +16,7 @@ header {
       
     }
     nav{
-    width: 1500px;
+    max-width: 1500px;
     margin: 0 auto;
      &{
         @media(max-width: 991px){
@@ -103,13 +103,10 @@ header {
         }
     }
     nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-        background-color: unset!important;
+        background-color: rgba(0, 0, 0,0.9);
         padding-left: 10px;
         padding-right: 10px;
       
-      
-        
-    
     }
     nav.navbar.navbar-expand-lg.navbar-light.bg-light {
         @media(max-width: 1529px){
@@ -251,6 +248,100 @@ li.nav-item.dropdown-toggle::after {
     margin-left: 0;
     margin-right: 0;
 }
-*{
-    //border: 1px solid red;
+body {
+   
+    margin: 0;
+  }
+  .sticky{
+    z-index: 99999999999;
+    background-color: rgb(4, 13, 16)!important;
+    background: rgb(4, 13, 16)!important;
+    width: 100%!important;
+    &{
+        @media(max-width: 575px){
+            position: unset!important;
+        }
+    }
+}
+  
+  .navbar {
+    overflow: hidden;
+   
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a.right {
+    float: right;
+  }
+  
+
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .side {
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .main {
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .fakeimg {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s ease;
+    animation: smoothScroll 1s forwards;
+  }
+
+  .header.sticky{
+    border-bottom: 1px solid rgb(255, 210, 141);
+    a.brand{
+        padding: 0px 20px 0px 0px;
+        svg{
+            width: 150px;
+             height: 100px;
+        }
+    }
+
+  }
+  
+  @keyframes smoothScroll {
+    0% {
+      transform: translateY(-142px);
+    }
+  
+    100% {
+      transform: translateY(0px);
+    }
   }
