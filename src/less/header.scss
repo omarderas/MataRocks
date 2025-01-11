@@ -268,7 +268,7 @@ body {
         height: 90px;
     }
 }
-  
+
   .navbar {
     overflow: hidden;
    
@@ -335,9 +335,24 @@ body {
         padding: 0px 20px 0px 0px;
         svg{
             width: 150px;
-             height: 100px;
+             height: 70px;
         }
     }
+
+  }
+  .header{
+   &{
+     @media(max-width: 575px){
+        a.brand{
+            padding: 0px 20px 0px 0px;
+            svg{
+                width: 150px;
+                 height: 70px;
+            }
+        }
+     }
+   }
+
 
   }
   

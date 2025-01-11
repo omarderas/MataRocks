@@ -171,6 +171,10 @@ a.book-button{
       display: flex;
       justify-content: space-between;
       div{
+        svg{
+          width: 150px;
+          height: 60px;
+        }
         p{
           margin-bottom: 0;
           color: rgb(255, 210, 141);

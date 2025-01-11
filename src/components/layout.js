@@ -5,7 +5,7 @@ import "../less/animations.scss"
 
 import App from "./sticky-header";
 import Footer from "./footer";
-
+import Logo from "../images/logo";
 
 
 import { useStaticQuery, graphql } from "gatsby"
@@ -32,17 +32,20 @@ const Layout = ({ children }) => {
         <div>
         <main>{children}</main>
         </div>
-        <div className="sticky-footer">
+       <div className="sticky-footer">
           <div className="cont">
-             <div>
+            <div>
+              <Logo />
+            </div>
+            {/* <div>
                <p>Discover the ultimate oceanfront getaway on SanPedro Ambergris, Belize’s tropical gem.</p>
                <span>
-                 <a href="tel:+5012262336">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
-                  Call Us
+                 <a href="/rooms">
+                 
+                  All Rooms
                  </a>
                </span>
-             </div>
+             </div>*/}
              <div>
                <a href="https://us2.cloudbeds.com/en/reservation/Ii3x4t?currency=usd" target="_blank">Book Now</a>
              </div>
