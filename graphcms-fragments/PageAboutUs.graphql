@@ -1,13 +1,11 @@
-fragment Tours on Tours {
+fragment PageAboutUs on PageAboutUs {
   stage
   publishedAt
   updatedAt
   createdAt
   remoteId: id
-  tourTitle
-  price
-  location
-  description {
+  pageTitle
+  pageCont {
     ... on RichText {
       raw
       html
@@ -15,40 +13,7 @@ fragment Tours on Tours {
       text
     }
   }
-  includes {
-    ... on RichText {
-      raw
-      html
-      markdown
-      text
-    }
-  }
-  utilities {
-    ... on RichText {
-      raw
-      html
-      markdown
-      text
-    }
-  }
-  slug
-  tourImage {
-    ... on GalleryImage {
-      stage
-      id
-      imageAltText
-      imageTitle
-      image {
-        ... on Asset {
-          remoteTypeName: __typename
-          remoteId: id
-          locale
-          stage
-        }
-      }
-    }
-  }
-  tourGallery {
+  headerImage {
     ... on GalleryImage {
       stage
       id

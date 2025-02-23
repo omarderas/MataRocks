@@ -43,12 +43,12 @@ fragment ScheduledOperation on ScheduledOperation {
       locale
       stage
     }
-    ... on Rooms {
+    ... on PageAboutUs {
       remoteTypeName: __typename
       remoteId: id
       stage
     }
-    ... on Tours {
+    ... on Rooms {
       remoteTypeName: __typename
       remoteId: id
       stage
