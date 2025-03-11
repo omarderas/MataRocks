@@ -16,7 +16,7 @@ function Contact({data}) {
                   id
                   imageAltText
                   image {
-                    gatsbyImageData(placeholder: BLURRED, quality: 60)
+                    gatsbyImageData( quality: 60)
                     url
                   }
                 }

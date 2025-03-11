@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import { StaticImage } from "gatsby-plugin-image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { graphql, Link, StaticQuery } from "gatsby"
+
 const headerImg = "../../../images/foodHeader.png";
 const slide1 = "../../../images/spaghetti.png";
 const slide2 = "../../../images/sub.png";
@@ -12,7 +14,7 @@ const slide4 = "../../../images/juice.png";
 const slide5 = "../../../images/mojito.png";
 const slide6 = "../../../images/greenJuice.png";
 
-function Restaurant() {
+function Restaurant({data}) {
   var settings = {
     dots: true,
     infinite: true,
@@ -47,93 +49,103 @@ function Restaurant() {
     ],
   };
   return (
+        <StaticQuery 
+        query={graphql`
+        query DineIn{
+            allGraphCmsPageDineIn {    
+                edges {
+                  node {
+                      menuSlider {
+                        imageAltText
+                        imageTitle
+                        image {
+                          gatsbyImageData
+                          url
+                        }
+                      }
+                        headerImage {
+                          imageAltText
+                          imageTitle
+                          image {
+                            gatsbyImageData
+                            url
+                          }
+                        }
+                    title2
+                    title1
+                    pageTitle
+                      content{
+                          html
+                          markdown
+                          raw
+                          text
+                        }
+                  }
+                }
+              }
+          }
+    `}
+    
+    render={data => ( 
     <div className="restaurant-main">
+      {data.allGraphCmsPageDineIn.edges.map(({ node: about }) => (
       <div className="content-header">
         <div className="header-overlay"></div>
-        <StaticImage
-          src={headerImg}
-          quality={60}
-          formats={["auto", "webp", "avif"]}
-        />
+        <img src={about.headerImage.image.url}
+                                        quality={60}
+                                        formats={["auto", "webp", "avif"]}
+                                        alt={about.headerImage.imageAltText}
+                    />
         <div className="header-cont">
-          <h1>Dine with Us</h1>
+          <h1>{about.pageTitle}</h1>
         </div>
       </div>
+       ))}
       <div className="main-cont">
         <div className="tours-slider">
           <div className="slider-container">
+          
+          {data.allGraphCmsPageDineIn.edges.map(({ node: gallery }) => (
             <Slider {...settings}>
-              <div className="tour-slide">
-                <a >
-                  <div className="absolute-overlay"></div>
-                  <StaticImage src={slide1} />
+          
+               {(gallery.menuSlider || []).map((galleryMap, id) => (
+                   <div className="tour-slide">
+                     <a>
+                        <div className="absolute-overlay"></div>
+                        <img src={galleryMap.image.url}
+                          key={galleryMap.id}
+                          quality={60}
+                          formats={["auto", "webp", "avif"]}
+                          placeholder="blurred"
+                          alt={galleryMap.imageAltText}/>
 
-                  <div className="absolute-desc">
-                    <span>
-                      <h1>Cave Tubing</h1>
-                      <p>Desserts</p>
-                    </span>
-                  </div>
-                </a>
-              </div>
-              <div className="tour-slide">
-                <a >
-                  <div className="absolute-overlay"></div>
-                  <StaticImage src={slide2} />
-                  <div className="absolute-desc">
-                    <span>
-                      <h1>Cave Tubing</h1>
-                      <p>Desserts</p>
-                    </span>
-                  </div>
-                </a>
-              </div>
-              <div className="tour-slide">
-                <a >
-                  <div className="absolute-overlay"></div>
-                  <StaticImage src={slide5} />
-                  <div className="absolute-desc">
-                    <span>
-                      <h1>Cave Tubing</h1>
-                      <p>Desserts</p>
-                    </span>
-                  </div>
-                </a>
-              </div>
-              <div className="tour-slide">
-                <a >
-                  <div className="absolute-overlay"></div>
-                  <StaticImage src={slide3} />
-                  <div className="absolute-desc">
-                    <span>
-                      <h1>Cave Tubing</h1>
-                      <p>Desserts</p>
-                    </span>
-                  </div>
-                </a>
-              </div>
-              <div className="tour-slide">
-                <a >
-                  <div className="absolute-overlay"></div>
-                  <StaticImage src={slide4} />
-                  <div className="absolute-desc">
-                    <span>
-                      <h1>Cave Tubing</h1>
-                      <p>Desserts</p>
-                    </span>
-                  </div>
-                </a>
-              </div>
-            </Slider>
+                        <div className="absolute-desc">
+                          <span>
+                            <h1>Cave Tubing</h1>
+                            <p>Desserts</p>
+                          </span>
+                        </div>
+                      </a>
+                      </div>
+                    ))}
+            
+               </Slider>
+             ))}
+             
           </div>
         </div>
         <div className="menu-content">
           <div className="menu">
-            <h2>Dine with Us</h2>
-            <h1>Beachfront Bar / Sorella Ristorante</h1>
-            <span>Sip, Savor, and Relax by the Waves! Enjoy expertly crafted cocktails, fine wine, and ice-cold beer at our stunning beachfront bar. Don’t miss our famous signature "On The Rocks" creations, mixed to perfection by our talented bartenders.
-
-We also have an In House Restaruant with Authentic Italian food with a Belizean twist. Our menu will draw inspiration from coastal mediterranean cuisine and local dishes.</span>
+          {data.allGraphCmsPageDineIn.edges.map(({ node: about }) => (
+            <>
+            <h2>{about.title1}</h2>
+            <h1>{about.title2}</h1>
+            {data.allGraphCmsPageDineIn.edges.map(({ node: about }) => (
+        <span dangerouslySetInnerHTML={{ __html: about.content.html }} /> 
+                 
+      ))}
+            </>
+             ))}
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button
@@ -374,7 +386,9 @@ We also have an In House Restaruant with Authentic Italian food with a Belizean 
         </div>
       </div>
     </div>
-  );
+   )}
+   />
+ );
 }
 
 export default Restaurant;

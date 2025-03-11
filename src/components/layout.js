@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 
 import "../less/animations.scss"
-
+import 'bootstrap/dist/css/bootstrap.css';
 import App from "./sticky-header";
 import Footer from "./footer";
 import Logo from "../images/logo";

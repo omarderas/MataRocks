@@ -1,18 +1,45 @@
 import React from 'react'
+import { graphql, Link, StaticQuery } from "gatsby"
 
-function About() {
+function About({data}) {
   return (
+    <StaticQuery 
+    query={graphql`
+    query Restaurant{
+        allGraphCmsHomeRestaurant {    
+            edges {
+              node {
+                title1
+                title2White
+                title3Gold
+                  content{
+                      html
+                      markdown
+                      raw
+                      text
+                    }
+              }
+            }
+          }
+      }
+    `}
+
+
+render={data => ( 
     <div className='about-main'>
         <div className='cont'>
             <div className='row'>
                  <div className='col-sm-6'>
-                        <h2>Dine with Us!</h2>
-                        <h1>Beachfront Bar <span>On The Rocks</span></h1>
-                        <p>Sip, Savor, and Relax by the Waves!
-Enjoy expertly crafted cocktails, fine wine, and ice-cold beer at our stunning beachfront bar. Don’t miss
-our famous signature "On The Rocks" creations, mixed to perfection by our talented bartenders.</p>
-                        <p>We also have an In House Restaruant with Authentic Italian food with a Belizean twist. Our menu will draw inspiration from coastal mediterranean cuisine and local dishes.</p>
-                        <a className="all-button" href="/restaurant-and-bar/" >Restaurant & Bar</a>
+                 {data.allGraphCmsHomeRestaurant.edges.map(({ node: welcome }) => (
+                    <>
+                        <h2>{welcome.title1}</h2>
+                        <h1>{welcome.title2White}<span> {welcome.title3Gold}</span></h1>
+                    </>
+                  ))}
+                  {data.allGraphCmsHomeRestaurant.edges.map(({ node: welcome }) => (
+                  <div dangerouslySetInnerHTML={{ __html: welcome.content.html }} /> 
+                  ))}
+                 <a className="all-button" href="/restaurant-and-bar/" >Restaurant & Bar</a>
                  </div>
                  <div className='col-sm-6'>
                     
@@ -21,7 +48,9 @@ our famous signature "On The Rocks" creations, mixed to perfection by our talent
         </div>
     
     </div>
-  )
+    )}
+    />
+  );
 }
 
 export default About

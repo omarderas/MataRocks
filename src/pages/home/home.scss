@@ -24,6 +24,10 @@
                // animation: zoomIn 13s ease-in-out forwards;
          
     }
+    .carousel-control-prev, .carousel-control-next{
+     z-index: 20;
+
+    }
     .hero-absolute{
         position: relative;
         //max-width: 1500px;
@@ -733,6 +737,7 @@
                     background-color: rgb(255, 210, 141, 0.1);
                 }
                 a{
+                    text-decoration: unset;
                     .cont-icon{
                         .fa{
                             color: #FFD28D;

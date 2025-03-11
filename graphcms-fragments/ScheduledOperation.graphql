@@ -43,7 +43,32 @@ fragment ScheduledOperation on ScheduledOperation {
       locale
       stage
     }
+    ... on HomePickleball {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+    ... on HomeRestaurant {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+    ... on HomeSlideShow {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+    ... on HomeWelcome {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
     ... on PageAboutUs {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+    ... on PageContactUs {
       remoteTypeName: __typename
       remoteId: id
       stage

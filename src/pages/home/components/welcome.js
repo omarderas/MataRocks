@@ -1,16 +1,49 @@
 import React from 'react'
+import { graphql, Link, StaticQuery } from "gatsby"
 
-function Welcome() {
+function Welcome({data}) {
   return (
+    <StaticQuery 
+    query={graphql`
+    query Pickle{
+        allGraphCmsHomeWelcome {    
+            edges {
+              node {
+                title1
+                title2White
+                title3Gold
+                  welcomeText{
+                      html
+                      markdown
+                      raw
+                      text
+                    }
+              }
+            }
+          }
+      }
+    `}
+
+
+render={data => ( 
     <div className='welcome-main'>
        <div className='main-cont'>
-         <span>Welcome</span>
-         <h1>Experience the Pinnacle of Luxury at <br /><span>Mata Rocks Resort</span></h1>
-         <p>Mata Rocks is a boutique beachfront resort located on Ambergris Caye in San Pedro, Belize. The resort is situated south of the main town, approximately a 15 minute golf cart ride from the airport. The resort features 17 rooms all with ocean views, a pool, a bar and so much more! Here you’ll be able to relax, enjoy the beautiful beach, partake in multiple activities and tours, and explore all that San Pedro and Belize have to offer.</p>
+       {data.allGraphCmsHomeWelcome.edges.map(({ node: welcome }) => (
+        <>
+         <span>{welcome.title1}</span>
+         <h1>{welcome.title2White} <br /><span>{welcome.title3Gold}</span></h1>
+         </>
+        ))}
+        {data.allGraphCmsHomeWelcome.edges.map(({ node: welcome }) => (
+        <div dangerouslySetInnerHTML={{ __html: welcome.welcomeText.html }} /> 
+      ))}
          <a href="/contact-us/" className="all-button">Read More</a>
        </div>
     </div>
-  )
+    )}
+    />
+  );
 }
 
 export default Welcome
+
