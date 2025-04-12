@@ -22,7 +22,7 @@ export default function HTML(props) {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {props.headComponents}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-PR6XTR3W"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ED7SSS28RC"></script>
         <script
           type='text/javascript'
           dangerouslySetInnerHTML={{
@@ -30,7 +30,7 @@ export default function HTML(props) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', "GTM-PR6XTR3W");`,
+            gtag('config', "G-ED7SSS28RC");`,
           }}
         />
      
