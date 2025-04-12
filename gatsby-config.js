@@ -24,6 +24,15 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {                             
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+          trackingIds: ['GTM-PR6XTR3W'],
+          pluginConfig: {
+            head: true
+          },
+        },
+      },
     {
       resolve: 'gatsby-source-graphcms',
       options: {
